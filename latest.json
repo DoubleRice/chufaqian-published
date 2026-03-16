@@ -1,6 +1,6 @@
 {
-  "version": "2026-03-16T11:24:00.703712+08:00",
-  "generatedAt": "2026-03-16T03:24:00Z",
+  "version": "2026-03-16T11:35:34.957318+08:00",
+  "generatedAt": "2026-03-16T03:35:34Z",
   "nextPlannedUpdateAt": "2026-03-16T09:00:00Z",
   "cities": [
     {
@@ -17,14 +17,29 @@
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "航空到达供给"
+        "AeroDataBox 航空到达（PEK/PKX）"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客热度"
-      ]
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "北京",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "PEK",
+          "PKX"
+        ],
+        "arrivalsCount": 2026,
+        "estimatedSeats": 340368,
+        "cancellationRate": 0.0059,
+        "delayRate": 0.0109,
+        "airInflowScore": 92.9,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
     },
     {
       "cityID": "shanghai",
@@ -40,14 +55,103 @@
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "航空到达供给"
+        "AeroDataBox 航空到达（PVG/SHA）"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客热度"
-      ]
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "上海",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "PVG",
+          "SHA"
+        ],
+        "arrivalsCount": 3064,
+        "estimatedSeats": 514752,
+        "cancellationRate": 0.0039,
+        "delayRate": 0.0121,
+        "airInflowScore": 92.9,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "guangzhou",
+      "cityName": "广州",
+      "days": 30,
+      "index": 76,
+      "direction": "基本持平",
+      "crowdLevel": "偏多",
+      "departureAdvice": "一般",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，广州的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（CAN）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "广州",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "CAN"
+        ],
+        "arrivalsCount": 728,
+        "estimatedSeats": 122304,
+        "cancellationRate": 0.0027,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "shenzhen",
+      "cityName": "深圳",
+      "days": 30,
+      "index": 75,
+      "direction": "基本持平",
+      "crowdLevel": "偏多",
+      "departureAdvice": "一般",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，深圳的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（SZX）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "深圳",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "SZX"
+        ],
+        "arrivalsCount": 1850,
+        "estimatedSeats": 310800,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0065,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
     },
     {
       "cityID": "hangzhou",
@@ -63,14 +167,65 @@
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "航空到达供给"
+        "AeroDataBox 航空到达（HGH）"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客热度"
-      ]
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "杭州",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "HGH"
+        ],
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "suzhou",
+      "cityName": "苏州",
+      "days": 30,
+      "index": 72,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，苏州的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（WUX）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "苏州",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "WUX"
+        ],
+        "arrivalsCount": 108,
+        "estimatedSeats": 18144,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
     },
     {
       "cityID": "chengdu",
@@ -86,14 +241,214 @@
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "航空到达供给"
+        "AeroDataBox 航空到达（CTU/TFU）"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客热度"
-      ]
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "成都",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "CTU",
+          "TFU"
+        ],
+        "arrivalsCount": 752,
+        "estimatedSeats": 126336,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "chongqing",
+      "cityName": "重庆",
+      "days": 30,
+      "index": 78,
+      "direction": "基本持平",
+      "crowdLevel": "偏多",
+      "departureAdvice": "一般",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，重庆的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（CKG）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "重庆",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "CKG"
+        ],
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "cancellationRate": 0.0023,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "xian",
+      "cityName": "西安",
+      "days": 30,
+      "index": 80,
+      "direction": "持续升温",
+      "crowdLevel": "偏多",
+      "departureAdvice": "建议错峰",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，西安的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（XIY）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "西安",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "XIY"
+        ],
+        "arrivalsCount": 440,
+        "estimatedSeats": 73920,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "xiamen",
+      "cityName": "厦门",
+      "days": 30,
+      "index": 74,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，厦门的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（XMN）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "厦门",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "XMN"
+        ],
+        "arrivalsCount": 257,
+        "estimatedSeats": 43176,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "sanya",
+      "cityName": "三亚",
+      "days": 30,
+      "index": 84,
+      "direction": "高峰将至",
+      "crowdLevel": "拥挤",
+      "departureAdvice": "暂不推荐",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，三亚的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（SYX）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "三亚",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "SYX"
+        ],
+        "arrivalsCount": 220,
+        "estimatedSeats": 36960,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
+    },
+    {
+      "cityID": "harbin",
+      "cityName": "哈尔滨",
+      "days": 30,
+      "index": 68,
+      "direction": "逐步回落",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "该城市结果已由离线任务预先生成，App 端只负责读取。",
+      "summary": "未来30天，哈尔滨的结果来自预拉取数据与离线预测计算。",
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "AeroDataBox 航空到达（HRB）"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度 93"
+      ],
+      "aviationSnapshot": {
+        "cityName": "哈尔滨",
+        "date": "2026-03-15T16:00:00Z",
+        "airportIATACodes": [
+          "HRB"
+        ],
+        "arrivalsCount": 194,
+        "estimatedSeats": 32592,
+        "cancellationRate": 0.0,
+        "delayRate": 0.0,
+        "airInflowScore": 93.0,
+        "source": "AeroDataBox",
+        "lastUpdatedAt": "2026-03-16T03:35:34Z"
+      }
     }
   ]
 }
