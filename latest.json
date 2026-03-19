@@ -1,345 +1,386 @@
 {
-  "version": "2026-03-17T08:01:04.341970+08:00",
-  "generatedAt": "2026-03-17T00:01:04Z",
-  "nextPlannedUpdateAt": "2026-03-17T09:00:00Z",
+  "version": "2026-03-19T08:00:00.724819+08:00",
+  "generatedAt": "2026-03-19T00:00:00Z",
+  "nextPlannedUpdateAt": "2026-03-19T09:00:00Z",
+  "environment": "staging",
   "cities": [
     {
       "cityID": "beijing",
       "cityName": "北京",
       "days": 30,
-      "index": 55,
+      "index": 53,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，北京旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，北京旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 84,
+            "seasonality": 64,
+            "holiday": 72.2,
+            "weather": 64.4,
+            "events": 70.4,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 90.5,
+            "capacityPressure": 9.5
+          },
+          "weightedDemand": {
+            "popularity": 20.16,
+            "seasonality": 10.24,
+            "holiday": 13.0,
+            "weather": 6.44,
+            "events": 5.63,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 67.48,
+            "capacityPressure": 9.55,
+            "finalIndexRaw": 53.0
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（PEK/PKX）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "北京",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "PEK",
-          "PKX"
-        ],
-        "arrivalsCount": 2003,
-        "estimatedSeats": 336504,
-        "cancellationRate": 0.0065,
-        "delayRate": 0.0065,
-        "airInflowScore": 92.9,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 2027.0,
-          "estimatedSeats": 340536.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 2027.0,
-          "estimatedSeats": 340536.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0118,
-          "estimatedSeatsPct": -0.0118,
-          "airInflowScorePct": 0.0011
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "shanghai",
       "cityName": "上海",
       "days": 30,
-      "index": 55,
+      "index": 54,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，上海旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，上海旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 88,
+            "seasonality": 64,
+            "holiday": 70.5,
+            "weather": 68.1,
+            "events": 75.7,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 92.0,
+            "capacityPressure": 8.0
+          },
+          "weightedDemand": {
+            "popularity": 21.12,
+            "seasonality": 10.24,
+            "holiday": 12.7,
+            "weather": 6.81,
+            "events": 6.05,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 68.92,
+            "capacityPressure": 8.05,
+            "finalIndexRaw": 53.7
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（PVG/SHA）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "上海",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "PVG",
-          "SHA"
-        ],
-        "arrivalsCount": 3079,
-        "estimatedSeats": 517272,
-        "cancellationRate": 0.0068,
-        "delayRate": 0.0136,
-        "airInflowScore": 92.8,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 3034.0,
-          "estimatedSeats": 509712.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 3034.0,
-          "estimatedSeats": 509712.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": 0.0148,
-          "estimatedSeatsPct": 0.0148,
-          "airInflowScorePct": -0.0011
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "guangzhou",
       "cityName": "广州",
       "days": 30,
-      "index": 54,
+      "index": 53,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，广州旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，广州旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 79,
+            "seasonality": 68,
+            "holiday": 66.3,
+            "weather": 69.9,
+            "events": 63.4,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 84.9,
+            "capacityPressure": 15.1
+          },
+          "weightedDemand": {
+            "popularity": 18.96,
+            "seasonality": 10.88,
+            "holiday": 11.93,
+            "weather": 6.99,
+            "events": 5.07,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 65.83,
+            "capacityPressure": 15.1,
+            "finalIndexRaw": 53.15
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（CAN）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客较近7日基线下降 13%",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "广州",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "CAN"
-        ],
-        "arrivalsCount": 631,
-        "estimatedSeats": 106008,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 728.0,
-          "estimatedSeats": 122304.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 728.0,
-          "estimatedSeats": 122304.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.1332,
-          "estimatedSeatsPct": -0.1332,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "falling",
-        "summary": "较近7日基线下降 13%",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "shenzhen",
       "cityName": "深圳",
       "days": 30,
-      "index": 54,
+      "index": 53,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，深圳旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，深圳旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 77,
+            "seasonality": 68,
+            "holiday": 62.9,
+            "weather": 69.0,
+            "events": 62.5,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 83.0,
+            "capacityPressure": 17.0
+          },
+          "weightedDemand": {
+            "popularity": 18.48,
+            "seasonality": 10.88,
+            "holiday": 11.32,
+            "weather": 6.9,
+            "events": 5.0,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 64.58,
+            "capacityPressure": 17.05,
+            "finalIndexRaw": 52.7
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（SZX）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "深圳",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "SZX"
-        ],
-        "arrivalsCount": 1795,
-        "estimatedSeats": 301560,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0178,
-        "airInflowScore": 92.9,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 1849.0,
-          "estimatedSeats": 310632.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 1849.0,
-          "estimatedSeats": 310632.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0292,
-          "estimatedSeatsPct": -0.0292,
-          "airInflowScorePct": -0.0011
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "hangzhou",
       "cityName": "杭州",
       "days": 30,
-      "index": 59,
+      "index": 58,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，杭州旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，杭州旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 82,
+            "seasonality": 86,
+            "holiday": 67.1,
+            "weather": 76.4,
+            "events": 59.8,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 78.3,
+            "capacityPressure": 21.7
+          },
+          "weightedDemand": {
+            "popularity": 19.68,
+            "seasonality": 13.76,
+            "holiday": 12.09,
+            "weather": 7.64,
+            "events": 4.79,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 69.95,
+            "capacityPressure": 21.7,
+            "finalIndexRaw": 57.89
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（HGH）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "杭州",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "HGH"
-        ],
-        "arrivalsCount": 428,
-        "estimatedSeats": 71904,
-        "cancellationRate": 0.0023,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 433.0,
-          "estimatedSeats": 72744.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 433.0,
-          "estimatedSeats": 72744.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0115,
-          "estimatedSeatsPct": -0.0115,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "suzhou",
       "cityName": "苏州",
       "days": 30,
-      "index": 60,
+      "index": 58,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，苏州旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，苏州旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 76,
+            "seasonality": 86,
+            "holiday": 63.8,
+            "weather": 75.4,
+            "events": 55.4,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 68.8,
+            "capacityPressure": 31.2
+          },
+          "weightedDemand": {
+            "popularity": 18.24,
+            "seasonality": 13.76,
+            "holiday": 11.47,
+            "weather": 7.54,
+            "events": 4.44,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 67.45,
+            "capacityPressure": 31.2,
+            "finalIndexRaw": 58.39
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（WUX）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "苏州",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "WUX"
-        ],
-        "arrivalsCount": 105,
-        "estimatedSeats": 17640,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 108.0,
-          "estimatedSeats": 18144.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 108.0,
-          "estimatedSeats": 18144.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0278,
-          "estimatedSeatsPct": -0.0278,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "aviationSnapshot": null,
+      "aviationTrend": null
     },
     {
       "cityID": "chengdu",
@@ -351,11 +392,48 @@
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，成都旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，成都旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 86,
+            "seasonality": 64,
+            "holiday": 68.0,
+            "weather": 71.8,
+            "events": 67.8,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 82.0,
+            "capacityPressure": 18.0
+          },
+          "weightedDemand": {
+            "popularity": 20.64,
+            "seasonality": 10.24,
+            "holiday": 12.24,
+            "weather": 7.18,
+            "events": 5.42,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 67.72,
+            "capacityPressure": 18.05,
+            "finalIndexRaw": 55.3
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "航空到达供给获取失败：The read operation timed out"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
@@ -371,281 +449,317 @@
       "cityID": "chongqing",
       "cityName": "重庆",
       "days": 30,
-      "index": 57,
-      "direction": "基本持平",
-      "crowdLevel": "正常",
-      "departureAdvice": "比较适合",
-      "confidence": 86,
-      "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，重庆旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
-      "dataSources": [
-        "天气预报",
-        "节假日规则",
-        "AeroDataBox 航空到达（CKG）"
-      ],
-      "reasons": [
-        "季节性",
-        "节假日",
-        "天气舒适度",
-        "飞机来客与近7日基线基本持平",
-        "城市承接能力"
-      ],
-      "aviationSnapshot": {
-        "cityName": "重庆",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "CKG"
-        ],
-        "arrivalsCount": 436,
-        "estimatedSeats": 73248,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 433.0,
-          "estimatedSeats": 72744.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 433.0,
-          "estimatedSeats": 72744.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": 0.0069,
-          "estimatedSeatsPct": 0.0069,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
-    },
-    {
-      "cityID": "xian",
-      "cityName": "西安",
-      "days": 30,
-      "index": 59,
-      "direction": "基本持平",
-      "crowdLevel": "正常",
-      "departureAdvice": "比较适合",
-      "confidence": 86,
-      "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，西安旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
-      "dataSources": [
-        "天气预报",
-        "节假日规则",
-        "AeroDataBox 航空到达（XIY）"
-      ],
-      "reasons": [
-        "季节性",
-        "节假日",
-        "天气舒适度",
-        "飞机来客与近7日基线基本持平",
-        "城市承接能力"
-      ],
-      "aviationSnapshot": {
-        "cityName": "西安",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "XIY"
-        ],
-        "arrivalsCount": 436,
-        "estimatedSeats": 73248,
-        "cancellationRate": 0.0023,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 440.0,
-          "estimatedSeats": 73920.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 440.0,
-          "estimatedSeats": 73920.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0091,
-          "estimatedSeatsPct": -0.0091,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
-    },
-    {
-      "cityID": "xiamen",
-      "cityName": "厦门",
-      "days": 30,
-      "index": 58,
-      "direction": "基本持平",
-      "crowdLevel": "正常",
-      "departureAdvice": "比较适合",
-      "confidence": 86,
-      "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，厦门旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
-      "dataSources": [
-        "天气预报",
-        "节假日规则",
-        "AeroDataBox 航空到达（XMN）"
-      ],
-      "reasons": [
-        "季节性",
-        "节假日",
-        "天气舒适度",
-        "飞机来客与近7日基线基本持平",
-        "城市承接能力"
-      ],
-      "aviationSnapshot": {
-        "cityName": "厦门",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "XMN"
-        ],
-        "arrivalsCount": 260,
-        "estimatedSeats": 43680,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 257.0,
-          "estimatedSeats": 43176.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 257.0,
-          "estimatedSeats": 43176.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": 0.0117,
-          "estimatedSeatsPct": 0.0117,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
-    },
-    {
-      "cityID": "sanya",
-      "cityName": "三亚",
-      "days": 30,
-      "index": 64,
-      "direction": "基本持平",
-      "crowdLevel": "正常",
-      "departureAdvice": "比较适合",
-      "confidence": 86,
-      "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，三亚旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
-      "dataSources": [
-        "天气预报",
-        "节假日规则",
-        "AeroDataBox 航空到达（SYX）"
-      ],
-      "reasons": [
-        "季节性",
-        "节假日",
-        "天气舒适度",
-        "飞机来客与近7日基线基本持平",
-        "城市承接能力"
-      ],
-      "aviationSnapshot": {
-        "cityName": "三亚",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "SYX"
-        ],
-        "arrivalsCount": 222,
-        "estimatedSeats": 37296,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
-      },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 220.0,
-          "estimatedSeats": 36960.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 220.0,
-          "estimatedSeats": 36960.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": 0.0091,
-          "estimatedSeatsPct": 0.0091,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
-    },
-    {
-      "cityID": "harbin",
-      "cityName": "哈尔滨",
-      "days": 30,
       "index": 55,
       "direction": "基本持平",
       "crowdLevel": "正常",
       "departureAdvice": "比较适合",
       "confidence": 86,
       "recommended": "出行体验与成本相对均衡。",
-      "summary": "未来30天，哈尔滨旅游趋势预计为“基本持平”。已结合节假日、季节、天气、航空趋势和城市承接能力进行修正。",
+      "summary": "未来30天，重庆旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 83,
+            "seasonality": 64,
+            "holiday": 69.7,
+            "weather": 60.7,
+            "events": 65.1,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 76.2,
+            "capacityPressure": 23.8
+          },
+          "weightedDemand": {
+            "popularity": 19.92,
+            "seasonality": 10.24,
+            "holiday": 12.55,
+            "weather": 6.07,
+            "events": 5.21,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 65.99,
+            "capacityPressure": 23.8,
+            "finalIndexRaw": 55.44
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
       "dataSources": [
         "天气预报",
         "节假日规则",
-        "AeroDataBox 航空到达（HRB）"
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
       ],
       "reasons": [
         "季节性",
         "节假日",
         "天气舒适度",
-        "飞机来客与近7日基线基本持平",
+        "飞机来客热度",
         "城市承接能力"
       ],
-      "aviationSnapshot": {
-        "cityName": "哈尔滨",
-        "date": "2026-03-16T16:00:00Z",
-        "airportIATACodes": [
-          "HRB"
-        ],
-        "arrivalsCount": 191,
-        "estimatedSeats": 32088,
-        "cancellationRate": 0.0,
-        "delayRate": 0.0,
-        "airInflowScore": 93.0,
-        "source": "AeroDataBox",
-        "lastUpdatedAt": "2026-03-17T00:01:04Z"
+      "aviationSnapshot": null,
+      "aviationTrend": null
+    },
+    {
+      "cityID": "xian",
+      "cityName": "西安",
+      "days": 30,
+      "index": 57,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "出行体验与成本相对均衡。",
+      "summary": "未来30天，西安旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 81,
+            "seasonality": 64,
+            "holiday": 71.4,
+            "weather": 67.2,
+            "events": 69.5,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 71.9,
+            "capacityPressure": 28.1
+          },
+          "weightedDemand": {
+            "popularity": 19.44,
+            "seasonality": 10.24,
+            "holiday": 12.85,
+            "weather": 6.72,
+            "events": 5.56,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 66.81,
+            "capacityPressure": 28.1,
+            "finalIndexRaw": 57.13
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
       },
-      "aviationTrend": {
-        "baseline7d": {
-          "arrivalsCount": 194.0,
-          "estimatedSeats": 32592.0
-        },
-        "baselineRecent4": {
-          "arrivalsCount": 194.0,
-          "estimatedSeats": 32592.0
-        },
-        "deltaVsBaseline7d": {
-          "arrivalsCountPct": -0.0155,
-          "estimatedSeatsPct": -0.0155,
-          "airInflowScorePct": 0.0
-        },
-        "trend": "stable",
-        "summary": "与近7日基线基本持平",
-        "historySampleCount": 2
-      }
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度",
+        "城市承接能力"
+      ],
+      "aviationSnapshot": null,
+      "aviationTrend": null
+    },
+    {
+      "cityID": "xiamen",
+      "cityName": "厦门",
+      "days": 30,
+      "index": 56,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "出行体验与成本相对均衡。",
+      "summary": "未来30天，厦门旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 80,
+            "seasonality": 64,
+            "holiday": 64.6,
+            "weather": 77.3,
+            "events": 57.2,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 71.0,
+            "capacityPressure": 29.0
+          },
+          "weightedDemand": {
+            "popularity": 19.2,
+            "seasonality": 10.24,
+            "holiday": 11.63,
+            "weather": 7.73,
+            "events": 4.58,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 65.37,
+            "capacityPressure": 28.95,
+            "finalIndexRaw": 56.27
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度",
+        "城市承接能力"
+      ],
+      "aviationSnapshot": null,
+      "aviationTrend": null
+    },
+    {
+      "cityID": "sanya",
+      "cityName": "三亚",
+      "days": 30,
+      "index": 62,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "出行体验与成本相对均衡。",
+      "summary": "未来30天，三亚旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 85,
+            "seasonality": 90,
+            "holiday": 74.0,
+            "weather": 81.0,
+            "events": 52.8,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 67.7,
+            "capacityPressure": 32.3
+          },
+          "weightedDemand": {
+            "popularity": 20.4,
+            "seasonality": 14.4,
+            "holiday": 13.31,
+            "weather": 8.1,
+            "events": 4.22,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 72.43,
+            "capacityPressure": 32.35,
+            "finalIndexRaw": 62.41
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度",
+        "城市承接能力"
+      ],
+      "aviationSnapshot": null,
+      "aviationTrend": null
+    },
+    {
+      "cityID": "harbin",
+      "cityName": "哈尔滨",
+      "days": 30,
+      "index": 54,
+      "direction": "基本持平",
+      "crowdLevel": "正常",
+      "departureAdvice": "比较适合",
+      "confidence": 86,
+      "recommended": "出行体验与成本相对均衡。",
+      "summary": "未来30天，哈尔滨旅游趋势预计为“基本持平”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "explanation": {
+        "holidayProfile": null,
+        "holidayName": null,
+        "components": {
+          "rawSignals": {
+            "popularity": 75,
+            "seasonality": 46,
+            "holiday": 68.8,
+            "weather": 53.4,
+            "events": 61.6,
+            "aviation": 50.0,
+            "rail": 50.0,
+            "road": 50.0,
+            "capacityScore": 65.7,
+            "capacityPressure": 34.3
+          },
+          "weightedDemand": {
+            "popularity": 18.0,
+            "seasonality": 7.36,
+            "holiday": 12.39,
+            "weather": 5.34,
+            "events": 4.93,
+            "aviation": 7.0,
+            "rail": 3.0,
+            "road": 2.0
+          },
+          "totals": {
+            "demandScore": 60.02,
+            "capacityPressure": 34.35,
+            "finalIndexRaw": 53.6
+          },
+          "adjustments": {
+            "holidayWeightMultiplier": 1.0,
+            "holidayCityBonus": 0.0
+          }
+        }
+      },
+      "dataSources": [
+        "天气预报",
+        "节假日规则",
+        "航空到达供给获取失败：HTTP Error 429: Too Many Requests"
+      ],
+      "reasons": [
+        "季节性",
+        "节假日",
+        "天气舒适度",
+        "飞机来客热度",
+        "城市承接能力"
+      ],
+      "aviationSnapshot": null,
+      "aviationTrend": null
     }
-  ]
+  ],
+  "snapshotPath": "published/snapshots/latest-2026-03-19T08-00-00.724819+08-00.json"
 }
