@@ -1,17 +1,17 @@
 {
-  "version": "2026-03-27T17:00:01.083263+08:00",
-  "generatedAt": "2026-03-27T09:00:01Z",
-  "nextPlannedUpdateAt": "2026-03-28T00:00:00Z",
+  "version": "2026-03-28T08:00:00.810282+08:00",
+  "generatedAt": "2026-03-28T00:00:00Z",
+  "nextPlannedUpdateAt": "2026-03-28T09:00:00Z",
   "environment": "prod",
   "cities": [
     {
       "cityID": "beijing",
       "cityName": "北京",
       "days": 30,
-      "index": 80,
+      "index": 79,
       "direction": "持续升温",
-      "crowdLevel": "拥挤",
-      "departureAdvice": "暂不推荐",
+      "crowdLevel": "偏多",
+      "departureAdvice": "建议错峰",
       "confidence": 86,
       "recommended": "适合提前规划，价格可能逐步抬升。",
       "summary": "未来30天，北京旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
@@ -27,12 +27,12 @@
             "holiday": 72.2,
             "weather": 64.4,
             "events": 70.4,
-            "aviation": 62.4,
-            "rail": 34.7,
-            "road": 66.0,
-            "rawAviation": 62.4,
-            "rawRail": 34.7,
-            "rawRoad": 66.0,
+            "aviation": 58.4,
+            "rail": 44.6,
+            "road": 54.8,
+            "rawAviation": 58.4,
+            "rawRail": 44.6,
+            "rawRoad": 54.8,
             "capacityScore": 90.5,
             "capacityPressure": 9.5
           },
@@ -42,14 +42,14 @@
             "holiday": 13.0,
             "weather": 6.44,
             "events": 5.63,
-            "aviation": 12.48,
-            "rail": 12.14,
-            "road": 23.1
+            "aviation": 11.68,
+            "rail": 15.63,
+            "road": 19.17
           },
           "totals": {
-            "demandScore": 103.2,
+            "demandScore": 101.95,
             "capacityPressure": 9.55,
-            "finalIndexRaw": 79.79
+            "finalIndexRaw": 78.85
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -63,11 +63,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.28,
+            "transportConfirmation": 0.13,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.17,
               "rail": 0.0,
-              "road": 0.32
+              "road": 0.1
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -116,7 +116,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "北京",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "PEK",
           "PKX"
@@ -128,7 +128,7 @@
         "airInflowScore": 85.4,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -145,6 +145,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0802
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.25
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 2019.5,
+          "estimatedSeatsBaseline": 339276.0,
+          "arrivalsCountPct": 0.0002
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -154,7 +165,7 @@
         "cityName": "北京",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "北京南",
           "北京西",
@@ -240,7 +251,31 @@
         "priorityRouteDeltaScore": 34.0,
         "railInflowScore": 34.7,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "北京",
@@ -252,7 +287,31 @@
         "etaInflationRatio": 0.5724,
         "roadInflowScore": 66.0,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
@@ -279,11 +338,11 @@
             "weather": 68.1,
             "events": 75.7,
             "aviation": 62.4,
-            "rail": 34.7,
-            "road": 64.1,
+            "rail": 44.6,
+            "road": 54.2,
             "rawAviation": 62.4,
-            "rawRail": 34.7,
-            "rawRoad": 64.1,
+            "rawRail": 44.6,
+            "rawRoad": 54.2,
             "capacityScore": 92.0,
             "capacityPressure": 8.0
           },
@@ -294,13 +353,13 @@
             "weather": 6.81,
             "events": 6.05,
             "aviation": 12.48,
-            "rail": 12.14,
-            "road": 22.43
+            "rail": 15.63,
+            "road": 18.97
           },
           "totals": {
-            "demandScore": 103.98,
+            "demandScore": 103.99,
             "capacityPressure": 8.05,
-            "finalIndexRaw": 80.0
+            "finalIndexRaw": 80.01
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -314,11 +373,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.26,
+            "transportConfirmation": 0.17,
             "transportConfirmationRatios": {
               "air": 0.25,
               "rail": 0.0,
-              "road": 0.28
+              "road": 0.08
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -367,7 +426,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "上海",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "PVG",
           "SHA"
@@ -379,7 +438,7 @@
         "airInflowScore": 85.4,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -396,6 +455,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0805
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.5
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 3065.0,
+          "estimatedSeatsBaseline": 514920.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -405,7 +475,7 @@
         "cityName": "上海",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "上海虹桥",
           "上海站",
@@ -491,7 +561,31 @@
         "priorityRouteDeltaScore": 34.0,
         "railInflowScore": 34.7,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "上海",
@@ -503,14 +597,38 @@
         "etaInflationRatio": 0.5454,
         "roadInflowScore": 64.1,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "guangzhou",
       "cityName": "广州",
       "days": 30,
-      "index": 82,
+      "index": 80,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -529,12 +647,12 @@
             "holiday": 66.3,
             "weather": 69.9,
             "events": 63.4,
-            "aviation": 62.4,
-            "rail": 48.5,
-            "road": 60.2,
-            "rawAviation": 62.4,
-            "rawRail": 48.5,
-            "rawRoad": 60.2,
+            "aviation": 58.4,
+            "rail": 49.5,
+            "road": 53.0,
+            "rawAviation": 58.4,
+            "rawRail": 49.5,
+            "rawRoad": 53.0,
             "capacityScore": 84.9,
             "capacityPressure": 15.1
           },
@@ -544,14 +662,14 @@
             "holiday": 11.93,
             "weather": 6.99,
             "events": 5.07,
-            "aviation": 12.49,
-            "rail": 16.97,
-            "road": 21.07
+            "aviation": 11.68,
+            "rail": 17.32,
+            "road": 18.56
           },
           "totals": {
-            "demandScore": 104.37,
+            "demandScore": 101.4,
             "capacityPressure": 15.1,
-            "finalIndexRaw": 82.05
+            "finalIndexRaw": 79.82
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -565,11 +683,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.23,
+            "transportConfirmation": 0.11,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.17,
               "rail": 0.0,
-              "road": 0.2
+              "road": 0.06
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -618,7 +736,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "广州",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "CAN"
         ],
@@ -629,7 +747,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -646,6 +764,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.25
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 708.5,
+          "estimatedSeatsBaseline": 119028.0,
+          "arrivalsCountPct": -0.0007
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -655,7 +784,7 @@
         "cityName": "广州",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "广州南",
           "广州东"
@@ -740,7 +869,31 @@
         "priorityRouteDeltaScore": 44.6,
         "railInflowScore": 48.5,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "广州",
@@ -752,17 +905,41 @@
         "etaInflationRatio": 0.4914,
         "roadInflowScore": 60.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "shenzhen",
       "cityName": "深圳",
       "days": 30,
-      "index": 82,
+      "index": 79,
       "direction": "持续升温",
-      "crowdLevel": "拥挤",
-      "departureAdvice": "暂不推荐",
+      "crowdLevel": "偏多",
+      "departureAdvice": "建议错峰",
       "confidence": 86,
       "recommended": "适合提前规划，价格可能逐步抬升。",
       "summary": "未来30天，深圳旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
@@ -778,12 +955,12 @@
             "holiday": 62.9,
             "weather": 69.0,
             "events": 62.5,
-            "aviation": 62.4,
-            "rail": 49.4,
-            "road": 59.2,
-            "rawAviation": 62.4,
-            "rawRail": 49.4,
-            "rawRoad": 59.2,
+            "aviation": 58.4,
+            "rail": 49.8,
+            "road": 52.7,
+            "rawAviation": 58.4,
+            "rawRail": 49.8,
+            "rawRoad": 52.7,
             "capacityScore": 83.0,
             "capacityPressure": 17.0
           },
@@ -793,14 +970,14 @@
             "holiday": 11.32,
             "weather": 6.9,
             "events": 5.0,
-            "aviation": 12.48,
-            "rail": 17.29,
-            "road": 20.72
+            "aviation": 11.68,
+            "rail": 17.43,
+            "road": 18.46
           },
           "totals": {
-            "demandScore": 103.07,
+            "demandScore": 100.15,
             "capacityPressure": 17.05,
-            "finalIndexRaw": 81.57
+            "finalIndexRaw": 79.37
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -814,11 +991,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.22,
+            "transportConfirmation": 0.11,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.17,
               "rail": 0.0,
-              "road": 0.18
+              "road": 0.05
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -867,7 +1044,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "深圳",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "SZX"
         ],
@@ -878,7 +1055,7 @@
         "airInflowScore": 85.5,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -895,6 +1072,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0802
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.25
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 1844.2,
+          "estimatedSeatsBaseline": 309834.0,
+          "arrivalsCountPct": -0.0001
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -904,7 +1092,7 @@
         "cityName": "深圳",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "深圳北",
           "福田",
@@ -990,7 +1178,31 @@
         "priorityRouteDeltaScore": 45.4,
         "railInflowScore": 49.4,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "深圳",
@@ -1002,20 +1214,44 @@
         "etaInflationRatio": 0.4779,
         "roadInflowScore": 59.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "hangzhou",
       "cityName": "杭州",
       "days": 30,
-      "index": 85,
-      "direction": "高峰将至",
+      "index": 84,
+      "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
       "confidence": 86,
-      "recommended": "建议尽早订酒店和交通，热门景点可能拥挤。",
-      "summary": "未来30天，杭州旅游趋势预计为“高峰将至”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
+      "recommended": "适合提前规划，价格可能逐步抬升。",
+      "summary": "未来30天，杭州旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
       "explanation": {
         "holidayProfile": null,
         "holidayName": null,
@@ -1029,11 +1265,11 @@
             "weather": 76.4,
             "events": 59.8,
             "aviation": 62.5,
-            "rail": 45.1,
-            "road": 63.1,
+            "rail": 48.3,
+            "road": 53.9,
             "rawAviation": 62.5,
-            "rawRail": 45.1,
-            "rawRoad": 63.1,
+            "rawRail": 48.3,
+            "rawRoad": 53.9,
             "capacityScore": 78.3,
             "capacityPressure": 21.7
           },
@@ -1044,13 +1280,13 @@
             "weather": 7.64,
             "events": 4.79,
             "aviation": 9.37,
-            "rail": 20.3,
-            "road": 18.93
+            "rail": 21.73,
+            "road": 16.17
           },
           "totals": {
-            "demandScore": 106.54,
+            "demandScore": 105.22,
             "capacityPressure": 21.7,
-            "finalIndexRaw": 85.33
+            "finalIndexRaw": 84.34
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -1064,11 +1300,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.26,
+            "transportConfirmation": 0.16,
             "transportConfirmationRatios": {
               "air": 0.25,
               "rail": 0.0,
-              "road": 0.26
+              "road": 0.08
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -1117,7 +1353,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "杭州",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "HGH"
         ],
@@ -1128,7 +1364,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -1145,6 +1381,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.5
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 430.0,
+          "estimatedSeatsBaseline": 72240.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -1154,7 +1401,7 @@
         "cityName": "杭州",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "杭州东",
           "杭州西"
@@ -1239,7 +1486,31 @@
         "priorityRouteDeltaScore": 42.1,
         "railInflowScore": 45.1,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "杭州",
@@ -1251,14 +1522,38 @@
         "etaInflationRatio": 0.5319,
         "roadInflowScore": 63.1,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "suzhou",
       "cityName": "苏州",
       "days": 30,
-      "index": 89,
+      "index": 86,
       "direction": "高峰将至",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -1277,12 +1572,12 @@
             "holiday": 63.8,
             "weather": 75.4,
             "events": 55.4,
-            "aviation": 62.5,
-            "rail": 55.7,
-            "road": 62.2,
-            "rawAviation": 62.5,
-            "rawRail": 55.7,
-            "rawRoad": 62.2,
+            "aviation": 60.5,
+            "rail": 52.0,
+            "road": 53.6,
+            "rawAviation": 60.5,
+            "rawRail": 52.0,
+            "rawRoad": 53.6,
             "capacityScore": 68.8,
             "capacityPressure": 31.2
           },
@@ -1292,14 +1587,14 @@
             "holiday": 11.47,
             "weather": 7.54,
             "events": 4.44,
-            "aviation": 9.37,
-            "rail": 25.07,
-            "road": 18.66
+            "aviation": 9.07,
+            "rail": 23.4,
+            "road": 16.09
           },
           "totals": {
-            "demandScore": 108.55,
+            "demandScore": 104.01,
             "capacityPressure": 31.2,
-            "finalIndexRaw": 89.21
+            "finalIndexRaw": 85.81
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -1313,11 +1608,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.3,
+            "transportConfirmation": 0.16,
             "transportConfirmationRatios": {
-              "air": 0.25,
-              "rail": 0.11,
-              "road": 0.24
+              "air": 0.21,
+              "rail": 0.04,
+              "road": 0.07
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -1366,7 +1661,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "苏州",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "WUX"
         ],
@@ -1377,7 +1672,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -1394,6 +1689,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 4,
+          "historicalPercentile": 0.375
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 4,
+          "arrivalsCountBaseline": 107.0,
+          "estimatedSeatsBaseline": 17976.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 4,
@@ -1403,7 +1709,7 @@
         "cityName": "苏州",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "苏州站",
           "苏州北",
@@ -1489,7 +1795,31 @@
         "priorityRouteDeltaScore": 50.2,
         "railInflowScore": 55.7,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "苏州",
@@ -1501,14 +1831,38 @@
         "etaInflationRatio": 0.5184,
         "roadInflowScore": 62.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "chengdu",
       "cityName": "成都",
       "days": 30,
-      "index": 83,
+      "index": 82,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -1528,11 +1882,11 @@
             "weather": 71.8,
             "events": 67.8,
             "aviation": 62.5,
-            "rail": 37.3,
-            "road": 65.1,
+            "rail": 45.6,
+            "road": 54.5,
             "rawAviation": 62.5,
-            "rawRail": 37.3,
-            "rawRoad": 65.1,
+            "rawRail": 45.6,
+            "rawRoad": 54.5,
             "capacityScore": 82.0,
             "capacityPressure": 18.0
           },
@@ -1543,13 +1897,13 @@
             "weather": 7.18,
             "events": 5.42,
             "aviation": 12.49,
-            "rail": 13.05,
-            "road": 22.78
+            "rail": 15.94,
+            "road": 19.07
           },
           "totals": {
-            "demandScore": 104.05,
+            "demandScore": 103.23,
             "capacityPressure": 18.05,
-            "finalIndexRaw": 82.55
+            "finalIndexRaw": 81.93
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -1563,11 +1917,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.28,
+            "transportConfirmation": 0.17,
             "transportConfirmationRatios": {
               "air": 0.25,
               "rail": 0.0,
-              "road": 0.3
+              "road": 0.09
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -1616,7 +1970,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "成都",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "CTU",
           "TFU"
@@ -1628,7 +1982,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -1645,6 +1999,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 2,
+          "historicalPercentile": 0.5
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 2,
+          "arrivalsCountBaseline": 752.0,
+          "estimatedSeatsBaseline": 126336.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 2,
@@ -1654,7 +2019,7 @@
         "cityName": "成都",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "成都东",
           "成都南",
@@ -1740,7 +2105,31 @@
         "priorityRouteDeltaScore": 36.1,
         "railInflowScore": 37.3,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "成都",
@@ -1752,14 +2141,38 @@
         "etaInflationRatio": 0.5589,
         "roadInflowScore": 65.1,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "chongqing",
       "cityName": "重庆",
       "days": 30,
-      "index": 84,
+      "index": 83,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -1778,12 +2191,12 @@
             "holiday": 69.7,
             "weather": 60.7,
             "events": 65.1,
-            "aviation": 62.5,
-            "rail": 37.6,
-            "road": 68.0,
-            "rawAviation": 62.5,
-            "rawRail": 37.6,
-            "rawRoad": 68.0,
+            "aviation": 65.1,
+            "rail": 45.7,
+            "road": 55.4,
+            "rawAviation": 65.1,
+            "rawRail": 45.7,
+            "rawRoad": 55.4,
             "capacityScore": 76.2,
             "capacityPressure": 23.8
           },
@@ -1793,14 +2206,14 @@
             "holiday": 12.55,
             "weather": 6.07,
             "events": 5.21,
-            "aviation": 12.49,
-            "rail": 13.16,
-            "road": 23.8
+            "aviation": 13.03,
+            "rail": 15.98,
+            "road": 19.37
           },
           "totals": {
-            "demandScore": 103.44,
+            "demandScore": 102.37,
             "capacityPressure": 23.8,
-            "finalIndexRaw": 83.53
+            "finalIndexRaw": 82.73
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -1814,11 +2227,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.3,
+            "transportConfirmation": 0.2,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.3,
               "rail": 0.0,
-              "road": 0.36
+              "road": 0.11
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -1867,7 +2280,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "重庆",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "CKG"
         ],
@@ -1878,7 +2291,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -1895,6 +2308,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 3,
+          "historicalPercentile": 0.6667
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 3,
+          "arrivalsCountBaseline": 434.0,
+          "estimatedSeatsBaseline": 72912.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 3,
@@ -1904,7 +2328,7 @@
         "cityName": "重庆",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "重庆北",
           "重庆西",
@@ -1990,7 +2414,31 @@
         "priorityRouteDeltaScore": 36.2,
         "railInflowScore": 37.6,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "重庆",
@@ -2002,14 +2450,38 @@
         "etaInflationRatio": 0.5994,
         "roadInflowScore": 68.0,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "xian",
       "cityName": "西安",
       "days": 30,
-      "index": 80,
+      "index": 82,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -2028,12 +2500,12 @@
             "holiday": 71.4,
             "weather": 67.2,
             "events": 69.5,
-            "aviation": 62.5,
-            "rail": 33.8,
-            "road": 61.2,
-            "rawAviation": 62.5,
-            "rawRail": 33.8,
-            "rawRoad": 61.2,
+            "aviation": 59.8,
+            "rail": 44.3,
+            "road": 53.3,
+            "rawAviation": 59.8,
+            "rawRail": 44.3,
+            "rawRoad": 53.3,
             "capacityScore": 71.9,
             "capacityPressure": 28.1
           },
@@ -2043,14 +2515,14 @@
             "holiday": 12.85,
             "weather": 6.72,
             "events": 5.56,
-            "aviation": 9.37,
-            "rail": 15.21,
-            "road": 18.36
+            "aviation": 8.97,
+            "rail": 19.95,
+            "road": 16.0
           },
           "totals": {
-            "demandScore": 97.75,
+            "demandScore": 99.73,
             "capacityPressure": 28.1,
-            "finalIndexRaw": 80.34
+            "finalIndexRaw": 81.82
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -2064,11 +2536,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.24,
+            "transportConfirmation": 0.13,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.2,
               "rail": 0.0,
-              "road": 0.22
+              "road": 0.07
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -2117,7 +2589,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "西安",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "XIY"
         ],
@@ -2128,7 +2600,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -2145,6 +2617,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 3,
+          "historicalPercentile": 0.3333
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 3,
+          "arrivalsCountBaseline": 438.7,
+          "estimatedSeatsBaseline": 73696.0,
+          "arrivalsCountPct": 0.0008
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 3,
@@ -2154,7 +2637,7 @@
         "cityName": "西安",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "西安北",
           "西安站"
@@ -2239,7 +2722,31 @@
         "priorityRouteDeltaScore": 33.3,
         "railInflowScore": 33.8,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "西安",
@@ -2251,14 +2758,38 @@
         "etaInflationRatio": 0.5049,
         "roadInflowScore": 61.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "xiamen",
       "cityName": "厦门",
       "days": 30,
-      "index": 81,
+      "index": 82,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -2277,12 +2808,12 @@
             "holiday": 64.6,
             "weather": 77.3,
             "events": 57.2,
-            "aviation": 62.5,
-            "rail": 34.3,
-            "road": 57.3,
-            "rawAviation": 62.5,
-            "rawRail": 34.3,
-            "rawRoad": 57.3,
+            "aviation": 65.1,
+            "rail": 44.5,
+            "road": 52.2,
+            "rawAviation": 65.1,
+            "rawRail": 44.5,
+            "rawRoad": 52.2,
             "capacityScore": 71.0,
             "capacityPressure": 29.0
           },
@@ -2292,14 +2823,14 @@
             "holiday": 11.63,
             "weather": 7.73,
             "events": 4.58,
-            "aviation": 12.49,
-            "rail": 12.0,
-            "road": 20.05
+            "aviation": 13.03,
+            "rail": 15.58,
+            "road": 18.26
           },
           "totals": {
-            "demandScore": 97.92,
+            "demandScore": 100.23,
             "capacityPressure": 28.95,
-            "finalIndexRaw": 80.68
+            "finalIndexRaw": 82.41
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -2313,11 +2844,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.2,
+            "transportConfirmation": 0.17,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.3,
               "rail": 0.0,
-              "road": 0.15
+              "road": 0.04
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -2366,7 +2897,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "厦门",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "XMN"
         ],
@@ -2377,7 +2908,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -2394,6 +2925,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 3,
+          "historicalPercentile": 0.6667
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 3,
+          "arrivalsCountBaseline": 258.0,
+          "estimatedSeatsBaseline": 43344.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 3,
@@ -2403,7 +2945,7 @@
         "cityName": "厦门",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "厦门北",
           "厦门站"
@@ -2488,7 +3030,31 @@
         "priorityRouteDeltaScore": 33.7,
         "railInflowScore": 34.3,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "厦门",
@@ -2500,14 +3066,38 @@
         "etaInflationRatio": 0.4509,
         "roadInflowScore": 57.3,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "sanya",
       "cityName": "三亚",
       "days": 30,
-      "index": 91,
+      "index": 92,
       "direction": "高峰将至",
       "crowdLevel": "极拥挤",
       "departureAdvice": "暂不推荐",
@@ -2526,12 +3116,12 @@
             "holiday": 74.0,
             "weather": 81.0,
             "events": 52.8,
-            "aviation": 62.5,
-            "rail": 43.4,
-            "road": 54.4,
-            "rawAviation": 62.5,
-            "rawRail": 43.4,
-            "rawRoad": 54.4,
+            "aviation": 65.2,
+            "rail": 47.7,
+            "road": 51.3,
+            "rawAviation": 65.2,
+            "rawRail": 47.7,
+            "rawRoad": 51.3,
             "capacityScore": 67.7,
             "capacityPressure": 32.3
           },
@@ -2541,14 +3131,14 @@
             "holiday": 13.31,
             "weather": 8.1,
             "events": 4.22,
-            "aviation": 28.13,
-            "rail": 10.85,
-            "road": 10.88
+            "aviation": 29.34,
+            "rail": 11.92,
+            "road": 10.26
           },
           "totals": {
-            "demandScore": 110.29,
+            "demandScore": 111.96,
             "capacityPressure": 32.35,
-            "finalIndexRaw": 90.8
+            "finalIndexRaw": 92.05
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -2564,9 +3154,9 @@
             "holidayActivation": 1.0,
             "transportConfirmation": 0.17,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.3,
               "rail": 0.0,
-              "road": 0.09
+              "road": 0.03
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -2615,7 +3205,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "三亚",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "SYX"
         ],
@@ -2626,7 +3216,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -2643,6 +3233,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 3,
+          "historicalPercentile": 0.6667
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 3,
+          "arrivalsCountBaseline": 220.7,
+          "estimatedSeatsBaseline": 37072.0,
+          "arrivalsCountPct": 0.0015
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 3,
@@ -2652,7 +3253,7 @@
         "cityName": "三亚",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "三亚",
           "亚龙湾"
@@ -2737,7 +3338,31 @@
         "priorityRouteDeltaScore": 40.7,
         "railInflowScore": 43.4,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "三亚",
@@ -2749,14 +3374,38 @@
         "etaInflationRatio": 0.4104,
         "roadInflowScore": 54.4,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "harbin",
       "cityName": "哈尔滨",
       "days": 30,
-      "index": 76,
+      "index": 75,
       "direction": "持续升温",
       "crowdLevel": "偏多",
       "departureAdvice": "建议错峰",
@@ -2772,32 +3421,32 @@
           "rawSignals": {
             "popularity": 75,
             "seasonality": 46,
-            "holiday": 68.8,
+            "holiday": 63.3,
             "weather": 53.4,
             "events": 61.6,
-            "aviation": 62.5,
-            "rail": 33.8,
-            "road": 48.6,
-            "rawAviation": 62.5,
-            "rawRail": 33.8,
-            "rawRoad": 48.6,
+            "aviation": 55.0,
+            "rail": 40.8,
+            "road": 45.6,
+            "rawAviation": 59.8,
+            "rawRail": 44.3,
+            "rawRoad": 49.6,
             "capacityScore": 65.7,
             "capacityPressure": 34.3
           },
           "weightedDemand": {
             "popularity": 18.0,
             "seasonality": 7.36,
-            "holiday": 12.39,
+            "holiday": 11.4,
             "weather": 5.34,
             "events": 4.93,
-            "aviation": 12.49,
-            "rail": 11.83,
-            "road": 17.01
+            "aviation": 11.0,
+            "rail": 14.27,
+            "road": 15.97
           },
           "totals": {
-            "demandScore": 89.35,
+            "demandScore": 88.27,
             "capacityPressure": 34.35,
-            "finalIndexRaw": 75.6
+            "finalIndexRaw": 74.79
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -2810,10 +3459,10 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.12,
+            "holidayActivation": 0.9,
+            "transportConfirmation": 0.09,
             "transportConfirmationRatios": {
-              "air": 0.25,
+              "air": 0.2,
               "rail": 0.0,
               "road": 0.0
             },
@@ -2864,7 +3513,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "哈尔滨",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "HRB"
         ],
@@ -2875,7 +3524,7 @@
         "airInflowScore": 85.6,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "stored_history",
@@ -2892,6 +3541,17 @@
           "estimatedSeatsPct": 0.0,
           "airInflowScorePct": -0.0796
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 3,
+          "historicalPercentile": 0.3333
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 3,
+          "arrivalsCountBaseline": 193.0,
+          "estimatedSeatsBaseline": 32424.0,
+          "arrivalsCountPct": 0.0
+        },
         "trend": "stable",
         "summary": "与近7日基线基本持平",
         "historySampleCount": 3,
@@ -2901,7 +3561,7 @@
         "cityName": "哈尔滨",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "哈尔滨西",
           "哈尔滨站"
@@ -2986,7 +3646,31 @@
         "priorityRouteDeltaScore": 33.3,
         "railInflowScore": 33.8,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "哈尔滨",
@@ -2998,14 +3682,38 @@
         "etaInflationRatio": 0.3294,
         "roadInflowScore": 48.6,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "dunhuang",
       "cityName": "敦煌",
       "days": 30,
-      "index": 67,
+      "index": 65,
       "direction": "基本持平",
       "crowdLevel": "偏多",
       "departureAdvice": "一般",
@@ -3021,32 +3729,32 @@
           "rawSignals": {
             "popularity": 52,
             "seasonality": 68,
-            "holiday": 39.1,
+            "holiday": 33.6,
             "weather": 35.0,
             "events": 35.2,
-            "aviation": 52.6,
-            "rail": 32.8,
-            "road": 39.6,
+            "aviation": 45.2,
+            "rail": 37.8,
+            "road": 40.3,
             "rawAviation": 52.6,
-            "rawRail": 32.8,
-            "rawRoad": 39.6,
+            "rawRail": 44.0,
+            "rawRoad": 46.9,
             "capacityScore": 62.0,
             "capacityPressure": 38.0
           },
           "weightedDemand": {
             "popularity": 12.48,
             "seasonality": 10.88,
-            "holiday": 7.04,
+            "holiday": 6.05,
             "weather": 3.5,
             "events": 2.82,
-            "aviation": 23.65,
-            "rail": 8.2,
-            "road": 7.92
+            "aviation": 20.34,
+            "rail": 9.46,
+            "road": 8.07
           },
           "totals": {
-            "demandScore": 76.48,
+            "demandScore": 73.59,
             "capacityPressure": 38.0,
-            "finalIndexRaw": 66.86
+            "finalIndexRaw": 64.69
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -3059,8 +3767,8 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.03,
+            "holidayActivation": 0.82,
+            "transportConfirmation": 0.02,
             "transportConfirmationRatios": {
               "air": 0.05,
               "rail": 0.0,
@@ -3113,7 +3821,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "敦煌",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "DNH"
         ],
@@ -3124,7 +3832,7 @@
         "airInflowScore": 57.3,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -3141,6 +3849,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -3150,7 +3869,7 @@
         "cityName": "敦煌",
         "provider": "12306（真实页面）",
         "source": "live_12306_page_probe",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "敦煌站"
         ],
@@ -3234,7 +3953,31 @@
         "priorityRouteDeltaScore": 32.6,
         "railInflowScore": 32.8,
         "summary": "已接入 12306 真实页面车次结果（当前为部分优先线路），并按城市级重点客源线路加权生成高铁热度。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "敦煌",
@@ -3246,14 +3989,38 @@
         "etaInflationRatio": 0.1944,
         "roadInflowScore": 39.6,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "nanjing",
       "cityName": "南京",
       "days": 30,
-      "index": 83,
+      "index": 81,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -3273,11 +4040,11 @@
             "weather": 70.8,
             "events": 59.0,
             "aviation": 55.7,
-            "rail": 51.9,
-            "road": 60.2,
+            "rail": 50.6,
+            "road": 53.0,
             "rawAviation": 55.7,
-            "rawRail": 51.9,
-            "rawRoad": 60.2,
+            "rawRail": 50.6,
+            "rawRoad": 53.0,
             "capacityScore": 77.4,
             "capacityPressure": 22.6
           },
@@ -3288,13 +4055,13 @@
             "weather": 7.08,
             "events": 4.72,
             "aviation": 8.35,
-            "rail": 23.36,
-            "road": 18.06
+            "rail": 22.75,
+            "road": 15.91
           },
           "totals": {
-            "demandScore": 102.79,
+            "demandScore": 100.04,
             "capacityPressure": 22.6,
-            "finalIndexRaw": 82.75
+            "finalIndexRaw": 80.68
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -3308,11 +4075,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.18,
+            "transportConfirmation": 0.09,
             "transportConfirmationRatios": {
               "air": 0.11,
-              "rail": 0.04,
-              "road": 0.2
+              "rail": 0.01,
+              "road": 0.06
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -3361,7 +4128,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "南京",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "NKG"
         ],
@@ -3372,7 +4139,7 @@
         "airInflowScore": 66.2,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -3389,6 +4156,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -3398,7 +4176,7 @@
         "cityName": "南京",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "南京南",
           "南京站"
@@ -3467,7 +4245,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 51.9,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "南京",
@@ -3479,14 +4281,38 @@
         "etaInflationRatio": 0.4914,
         "roadInflowScore": 60.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "wuhan",
       "cityName": "武汉",
       "days": 30,
-      "index": 82,
+      "index": 80,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -3506,11 +4332,11 @@
             "weather": 66.2,
             "events": 59.8,
             "aviation": 55.4,
-            "rail": 50.5,
-            "road": 61.2,
+            "rail": 50.1,
+            "road": 53.3,
             "rawAviation": 55.4,
-            "rawRail": 50.5,
-            "rawRoad": 61.2,
+            "rawRail": 50.1,
+            "rawRoad": 53.3,
             "capacityScore": 79.2,
             "capacityPressure": 20.8
           },
@@ -3521,13 +4347,13 @@
             "weather": 6.62,
             "events": 4.79,
             "aviation": 11.09,
-            "rail": 17.67,
-            "road": 21.42
+            "rail": 17.55,
+            "road": 18.67
           },
           "totals": {
-            "demandScore": 102.03,
+            "demandScore": 99.16,
             "capacityPressure": 20.8,
-            "finalIndexRaw": 81.72
+            "finalIndexRaw": 79.57
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -3541,11 +4367,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.17,
+            "transportConfirmation": 0.09,
             "transportConfirmationRatios": {
               "air": 0.11,
-              "rail": 0.01,
-              "road": 0.22
+              "rail": 0.0,
+              "road": 0.07
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -3594,7 +4420,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "武汉",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "WUH"
         ],
@@ -3605,7 +4431,7 @@
         "airInflowScore": 65.5,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -3622,6 +4448,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -3631,7 +4468,7 @@
         "cityName": "武汉",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "武汉",
           "汉口",
@@ -3701,7 +4538,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 50.5,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "武汉",
@@ -3713,14 +4574,38 @@
         "etaInflationRatio": 0.5049,
         "roadInflowScore": 61.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "changsha",
       "cityName": "长沙",
       "days": 30,
-      "index": 83,
+      "index": 81,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -3740,11 +4625,11 @@
             "weather": 68.1,
             "events": 63.4,
             "aviation": 55.7,
-            "rail": 49.0,
-            "road": 59.2,
+            "rail": 49.7,
+            "road": 52.7,
             "rawAviation": 55.7,
-            "rawRail": 49.0,
-            "rawRoad": 59.2,
+            "rawRail": 49.7,
+            "rawRoad": 52.7,
             "capacityScore": 76.6,
             "capacityPressure": 23.4
           },
@@ -3755,13 +4640,13 @@
             "weather": 6.81,
             "events": 5.07,
             "aviation": 11.15,
-            "rail": 17.15,
-            "road": 20.72
+            "rail": 17.4,
+            "road": 18.46
           },
           "totals": {
-            "demandScore": 102.21,
+            "demandScore": 100.19,
             "capacityPressure": 23.4,
-            "finalIndexRaw": 82.51
+            "finalIndexRaw": 81.0
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -3775,11 +4660,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.15,
+            "transportConfirmation": 0.08,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
-              "road": 0.18
+              "road": 0.05
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -3828,7 +4713,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "长沙",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "CSX"
         ],
@@ -3839,7 +4724,7 @@
         "airInflowScore": 66.4,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -3856,6 +4741,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -3865,7 +4761,7 @@
         "cityName": "长沙",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "长沙南",
           "长沙站"
@@ -3934,7 +4830,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 49.0,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "长沙",
@@ -3946,14 +4866,38 @@
         "etaInflationRatio": 0.4779,
         "roadInflowScore": 59.2,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "qingdao",
       "cityName": "青岛",
       "days": 30,
-      "index": 81,
+      "index": 80,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -3973,11 +4917,11 @@
             "weather": 72.7,
             "events": 56.3,
             "aviation": 55.5,
-            "rail": 43.9,
-            "road": 57.3,
+            "rail": 48.2,
+            "road": 52.2,
             "rawAviation": 55.5,
-            "rawRail": 43.9,
-            "rawRoad": 57.3,
+            "rawRail": 48.2,
+            "rawRoad": 52.2,
             "capacityScore": 74.8,
             "capacityPressure": 25.2
           },
@@ -3988,13 +4932,13 @@
             "weather": 7.27,
             "events": 4.51,
             "aviation": 11.11,
-            "rail": 15.36,
-            "road": 20.05
+            "rail": 16.86,
+            "road": 18.26
           },
           "totals": {
-            "demandScore": 99.13,
+            "demandScore": 98.84,
             "capacityPressure": 25.2,
-            "finalIndexRaw": 80.65
+            "finalIndexRaw": 80.43
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -4008,11 +4952,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.13,
+            "transportConfirmation": 0.08,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
-              "road": 0.15
+              "road": 0.04
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -4061,7 +5005,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "青岛",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "TAO"
         ],
@@ -4072,7 +5016,7 @@
         "airInflowScore": 65.8,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -4089,6 +5033,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -4098,7 +5053,7 @@
         "cityName": "青岛",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "青岛北",
           "青岛站"
@@ -4167,7 +5122,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 43.9,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "青岛",
@@ -4179,14 +5158,38 @@
         "etaInflationRatio": 0.4509,
         "roadInflowScore": 57.3,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "kunming",
       "cityName": "昆明",
       "days": 30,
-      "index": 82,
+      "index": 81,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -4206,11 +5209,11 @@
             "weather": 74.5,
             "events": 58.1,
             "aviation": 55.7,
-            "rail": 46.1,
-            "road": 56.3,
+            "rail": 48.8,
+            "road": 51.9,
             "rawAviation": 55.7,
-            "rawRail": 46.1,
-            "rawRoad": 56.3,
+            "rawRail": 48.8,
+            "rawRoad": 51.9,
             "capacityScore": 75.1,
             "capacityPressure": 24.9
           },
@@ -4221,13 +5224,13 @@
             "weather": 7.45,
             "events": 4.65,
             "aviation": 11.13,
-            "rail": 16.13,
-            "road": 19.7
+            "rail": 17.09,
+            "road": 18.16
           },
           "totals": {
-            "demandScore": 100.45,
+            "demandScore": 99.86,
             "capacityPressure": 24.9,
-            "finalIndexRaw": 81.57
+            "finalIndexRaw": 81.12
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -4241,11 +5244,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.12,
+            "transportConfirmation": 0.08,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
-              "road": 0.13
+              "road": 0.04
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -4294,7 +5297,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "昆明",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "KMG"
         ],
@@ -4305,7 +5308,7 @@
         "airInflowScore": 66.2,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -4322,6 +5325,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -4331,7 +5345,7 @@
         "cityName": "昆明",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "昆明南",
           "昆明站"
@@ -4400,7 +5414,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 46.1,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "昆明",
@@ -4412,17 +5450,41 @@
         "etaInflationRatio": 0.4374,
         "roadInflowScore": 56.3,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "dali",
       "cityName": "大理",
       "days": 30,
-      "index": 79,
+      "index": 81,
       "direction": "持续升温",
-      "crowdLevel": "偏多",
-      "departureAdvice": "建议错峰",
+      "crowdLevel": "拥挤",
+      "departureAdvice": "暂不推荐",
       "confidence": 86,
       "recommended": "适合提前规划，价格可能逐步抬升。",
       "summary": "未来30天，大理旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
@@ -4439,11 +5501,11 @@
             "weather": 77.3,
             "events": 52.8,
             "aviation": 55.6,
-            "rail": 41.0,
-            "road": 50.5,
+            "rail": 47.3,
+            "road": 50.1,
             "rawAviation": 55.6,
-            "rawRail": 41.0,
-            "rawRoad": 50.5,
+            "rawRail": 47.3,
+            "rawRoad": 50.1,
             "capacityScore": 69.2,
             "capacityPressure": 30.8
           },
@@ -4454,13 +5516,13 @@
             "weather": 7.73,
             "events": 4.22,
             "aviation": 8.33,
-            "rail": 18.45,
-            "road": 15.15
+            "rail": 21.3,
+            "road": 15.04
           },
           "totals": {
-            "demandScore": 95.25,
+            "demandScore": 97.99,
             "capacityPressure": 30.8,
-            "finalIndexRaw": 79.14
+            "finalIndexRaw": 81.19
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -4473,12 +5535,12 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.06,
+            "holidayActivation": 0.82,
+            "transportConfirmation": 0.05,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
-              "road": 0.01
+              "road": 0.0
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -4527,7 +5589,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "大理",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "DLU"
         ],
@@ -4538,7 +5600,7 @@
         "airInflowScore": 65.9,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -4555,6 +5617,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -4564,7 +5637,7 @@
         "cityName": "大理",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "大理站"
         ],
@@ -4632,7 +5705,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 41.0,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "大理",
@@ -4644,14 +5741,38 @@
         "etaInflationRatio": 0.3564,
         "roadInflowScore": 50.5,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "lijiang",
       "cityName": "丽江",
       "days": 30,
-      "index": 81,
+      "index": 83,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -4671,11 +5792,11 @@
             "weather": 73.6,
             "events": 54.6,
             "aviation": 56.2,
-            "rail": 37.7,
-            "road": 48.6,
+            "rail": 46.3,
+            "road": 49.6,
             "rawAviation": 56.2,
-            "rawRail": 37.7,
-            "rawRoad": 48.6,
+            "rawRail": 46.3,
+            "rawRoad": 49.6,
             "capacityScore": 66.4,
             "capacityPressure": 33.6
           },
@@ -4686,13 +5807,13 @@
             "weather": 7.36,
             "events": 4.36,
             "aviation": 11.25,
-            "rail": 13.2,
-            "road": 17.01
+            "rail": 16.22,
+            "road": 17.35
           },
           "totals": {
-            "demandScore": 96.59,
+            "demandScore": 99.96,
             "capacityPressure": 33.6,
-            "finalIndexRaw": 80.84
+            "finalIndexRaw": 83.37
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -4705,8 +5826,8 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.06,
+            "holidayActivation": 0.82,
+            "transportConfirmation": 0.05,
             "transportConfirmationRatios": {
               "air": 0.12,
               "rail": 0.0,
@@ -4759,7 +5880,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "丽江",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "LJG"
         ],
@@ -4770,7 +5891,7 @@
         "airInflowScore": 67.8,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -4787,6 +5908,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -4796,7 +5928,7 @@
         "cityName": "丽江",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "丽江站"
         ],
@@ -4864,7 +5996,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 37.7,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "丽江",
@@ -4876,14 +6032,38 @@
         "etaInflationRatio": 0.3294,
         "roadInflowScore": 48.6,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "xishuangbanna",
       "cityName": "西双版纳",
       "days": 30,
-      "index": 82,
+      "index": 84,
       "direction": "持续升温",
       "crowdLevel": "拥挤",
       "departureAdvice": "暂不推荐",
@@ -4903,11 +6083,11 @@
             "weather": 79.1,
             "events": 53.7,
             "aviation": 56.0,
-            "rail": 37.7,
-            "road": 46.7,
+            "rail": 46.3,
+            "road": 49.0,
             "rawAviation": 56.0,
-            "rawRail": 37.7,
-            "rawRoad": 46.7,
+            "rawRail": 46.3,
+            "rawRoad": 49.0,
             "capacityScore": 67.1,
             "capacityPressure": 32.9
           },
@@ -4918,13 +6098,13 @@
             "weather": 7.91,
             "events": 4.29,
             "aviation": 25.21,
-            "rail": 9.43,
-            "road": 9.34
+            "rail": 11.59,
+            "road": 9.8
           },
           "totals": {
-            "demandScore": 98.96,
+            "demandScore": 101.58,
             "capacityPressure": 32.9,
-            "finalIndexRaw": 82.44
+            "finalIndexRaw": 84.41
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -4937,8 +6117,8 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.06,
+            "holidayActivation": 0.82,
+            "transportConfirmation": 0.05,
             "transportConfirmationRatios": {
               "air": 0.12,
               "rail": 0.0,
@@ -4991,7 +6171,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "西双版纳",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "JHG"
         ],
@@ -5002,7 +6182,7 @@
         "airInflowScore": 67.2,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -5019,6 +6199,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -5028,7 +6219,7 @@
         "cityName": "西双版纳",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "西双版纳站"
         ],
@@ -5096,7 +6287,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 37.7,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "西双版纳",
@@ -5108,17 +6323,41 @@
         "etaInflationRatio": 0.3024,
         "roadInflowScore": 46.7,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "guilin",
       "cityName": "桂林",
       "days": 30,
-      "index": 79,
+      "index": 80,
       "direction": "持续升温",
-      "crowdLevel": "偏多",
-      "departureAdvice": "建议错峰",
+      "crowdLevel": "拥挤",
+      "departureAdvice": "暂不推荐",
       "confidence": 86,
       "recommended": "适合提前规划，价格可能逐步抬升。",
       "summary": "未来30天，桂林旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
@@ -5135,11 +6374,11 @@
             "weather": 71.8,
             "events": 51.0,
             "aviation": 55.4,
-            "rail": 42.4,
-            "road": 52.5,
+            "rail": 47.7,
+            "road": 50.7,
             "rawAviation": 55.4,
-            "rawRail": 42.4,
-            "rawRoad": 52.5,
+            "rawRail": 47.7,
+            "rawRoad": 50.7,
             "capacityScore": 71.3,
             "capacityPressure": 28.7
           },
@@ -5150,13 +6389,13 @@
             "weather": 7.18,
             "events": 4.08,
             "aviation": 11.08,
-            "rail": 14.84,
-            "road": 18.38
+            "rail": 16.71,
+            "road": 17.76
           },
           "totals": {
-            "demandScore": 96.06,
+            "demandScore": 97.31,
             "capacityPressure": 28.7,
-            "finalIndexRaw": 79.22
+            "finalIndexRaw": 80.16
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -5170,11 +6409,11 @@
               "road": 1.0
             },
             "holidayActivation": 1.0,
-            "transportConfirmation": 0.08,
+            "transportConfirmation": 0.06,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
-              "road": 0.05
+              "road": 0.01
             },
             "transportSources": {
               "air": "stored_history_baseline",
@@ -5223,7 +6462,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "桂林",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "KWL"
         ],
@@ -5234,7 +6473,7 @@
         "airInflowScore": 65.4,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -5251,6 +6490,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -5260,7 +6510,7 @@
         "cityName": "桂林",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "桂林北",
           "桂林西"
@@ -5329,7 +6579,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 42.4,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "桂林",
@@ -5341,17 +6615,41 @@
         "etaInflationRatio": 0.3834,
         "roadInflowScore": 52.5,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     },
     {
       "cityID": "zhangjiajie",
       "cityName": "张家界",
       "days": 30,
-      "index": 78,
+      "index": 81,
       "direction": "持续升温",
-      "crowdLevel": "偏多",
-      "departureAdvice": "建议错峰",
+      "crowdLevel": "拥挤",
+      "departureAdvice": "暂不推荐",
       "confidence": 86,
       "recommended": "适合提前规划，价格可能逐步抬升。",
       "summary": "未来30天，张家界旅游趋势预计为“持续升温”。已结合季节、天气、航空趋势、城市承接能力进行修正。",
@@ -5368,11 +6666,11 @@
             "weather": 69.9,
             "events": 50.2,
             "aviation": 55.4,
-            "rail": 37.7,
-            "road": 45.7,
+            "rail": 46.3,
+            "road": 48.7,
             "rawAviation": 55.4,
-            "rawRail": 37.7,
-            "rawRoad": 45.7,
+            "rawRail": 46.3,
+            "rawRoad": 48.7,
             "capacityScore": 64.9,
             "capacityPressure": 35.1
           },
@@ -5383,13 +6681,13 @@
             "weather": 6.99,
             "events": 4.01,
             "aviation": 11.08,
-            "rail": 13.2,
-            "road": 15.99
+            "rail": 16.22,
+            "road": 17.05
           },
           "totals": {
-            "demandScore": 92.0,
+            "demandScore": 96.08,
             "capacityPressure": 35.1,
-            "finalIndexRaw": 77.77
+            "finalIndexRaw": 80.84
           },
           "adjustments": {
             "legacyHolidayWeightMultiplier": 1.0,
@@ -5402,8 +6700,8 @@
               "rail": 1.0,
               "road": 1.0
             },
-            "holidayActivation": 1.0,
-            "transportConfirmation": 0.05,
+            "holidayActivation": 0.82,
+            "transportConfirmation": 0.04,
             "transportConfirmationRatios": {
               "air": 0.11,
               "rail": 0.0,
@@ -5456,7 +6754,7 @@
       ],
       "aviationSnapshot": {
         "cityName": "张家界",
-        "date": "2026-03-27T09:00:01Z",
+        "date": "2026-03-28T00:00:00Z",
         "airportIATACodes": [
           "DYG"
         ],
@@ -5467,7 +6765,7 @@
         "airInflowScore": 65.4,
         "source": "stored_history_baseline",
         "mode": "stored_history_baseline",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
       },
       "aviationTrend": {
         "baselineSource": "city_profile_proxy",
@@ -5484,6 +6782,17 @@
           "estimatedSeatsPct": null,
           "airInflowScorePct": null
         },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "estimatedSeatsBaseline": null,
+          "arrivalsCountPct": null
+        },
         "trend": "insufficient_history",
         "summary": "历史样本不足，先展示当前值",
         "historySampleCount": 0,
@@ -5493,7 +6802,7 @@
         "cityName": "张家界",
         "provider": "12306（配置骨架）",
         "source": "fallback_skeleton",
-        "queryDate": "2026-03-27T09:00:01Z",
+        "queryDate": "2026-03-28T00:00:00Z",
         "stationNames": [
           "张家界西",
           "张家界站"
@@ -5562,7 +6871,31 @@
         "priorityRouteDeltaScore": 43.0,
         "railInflowScore": 37.7,
         "summary": "当前为城市级高铁重点客源线路配置骨架，已为每个城市预置代表性出发地与站点编码，后续逐条替换为 12306 真实余票与时段压力。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "railTrend": {
+        "baseline7d": {
+          "arrivalsCount": null,
+          "railInflowScore": null
+        },
+        "deltaVsBaseline7d": {
+          "arrivalsCountPct": null,
+          "railInflowScorePct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "arrivalsCountBaseline": null,
+          "railInflowScoreBaseline": null,
+          "arrivalsCountPct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       },
       "roadSnapshot": {
         "cityName": "张家界",
@@ -5574,9 +6907,33 @@
         "etaInflationRatio": 0.2889,
         "roadInflowScore": 45.7,
         "summary": "当前为城市入口/周边路况估算骨架，后续可替换为高德/百度实时路况。",
-        "lastUpdatedAt": "2026-03-27T09:00:01Z"
+        "lastUpdatedAt": "2026-03-28T00:00:00Z"
+      },
+      "roadTrend": {
+        "baseline7d": {
+          "roadInflowScore": null,
+          "congestionRatio": null
+        },
+        "deltaVsBaseline7d": {
+          "roadInflowScorePct": null,
+          "congestionRatioPct": null
+        },
+        "historicalComparison": {
+          "sampleWindowDays": 60,
+          "sampleCount": 0,
+          "historicalPercentile": null
+        },
+        "vsHolidayBaseline": {
+          "sampleCount": 0,
+          "roadInflowScoreBaseline": null,
+          "congestionRatioBaseline": null,
+          "roadInflowScorePct": null
+        },
+        "trend": "insufficient_history",
+        "summary": "历史样本不足，先展示当前值",
+        "historySampleCount": 0
       }
     }
   ],
-  "snapshotPath": "published/snapshots/latest-2026-03-27T17-00-01.083263+08-00.json"
+  "snapshotPath": "published/snapshots/latest-2026-03-28T08-00-00.810282+08-00.json"
 }
