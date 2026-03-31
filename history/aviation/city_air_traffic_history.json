@@ -1,0 +1,274 @@
+{
+  "cities": {
+    "北京": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 2027,
+        "estimatedSeats": 340536,
+        "airInflowScore": 92.8
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 2027,
+        "estimatedSeats": 340536,
+        "airInflowScore": 92.8
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 2003,
+        "estimatedSeats": 336504,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 2021,
+        "estimatedSeats": 339528,
+        "airInflowScore": 92.9
+      }
+    ],
+    "上海": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 3036,
+        "estimatedSeats": 510048,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 3032,
+        "estimatedSeats": 509376,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 3079,
+        "estimatedSeats": 517272,
+        "airInflowScore": 92.8
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 3113,
+        "estimatedSeats": 522984,
+        "airInflowScore": 92.9
+      }
+    ],
+    "广州": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 728,
+        "estimatedSeats": 122304,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 728,
+        "estimatedSeats": 122304,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 631,
+        "estimatedSeats": 106008,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 747,
+        "estimatedSeats": 125496,
+        "airInflowScore": 93.0
+      }
+    ],
+    "深圳": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 1849,
+        "estimatedSeats": 310632,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 1849,
+        "estimatedSeats": 310632,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 1795,
+        "estimatedSeats": 301560,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 1884,
+        "estimatedSeats": 316512,
+        "airInflowScore": 92.9
+      }
+    ],
+    "杭州": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 428,
+        "estimatedSeats": 71904,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 426,
+        "estimatedSeats": 71568,
+        "airInflowScore": 93.0
+      }
+    ],
+    "苏州": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 108,
+        "estimatedSeats": 18144,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 108,
+        "estimatedSeats": 18144,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 105,
+        "estimatedSeats": 17640,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-18T23:24:07Z",
+        "arrivalsCount": 107,
+        "estimatedSeats": 17976,
+        "airInflowScore": 93.0
+      }
+    ],
+    "成都": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 752,
+        "estimatedSeats": 126336,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 752,
+        "estimatedSeats": 126336,
+        "airInflowScore": 93.0
+      }
+    ],
+    "重庆": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 433,
+        "estimatedSeats": 72744,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 436,
+        "estimatedSeats": 73248,
+        "airInflowScore": 93.0
+      }
+    ],
+    "西安": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 440,
+        "estimatedSeats": 73920,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 440,
+        "estimatedSeats": 73920,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 436,
+        "estimatedSeats": 73248,
+        "airInflowScore": 93.0
+      }
+    ],
+    "厦门": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 257,
+        "estimatedSeats": 43176,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 257,
+        "estimatedSeats": 43176,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 260,
+        "estimatedSeats": 43680,
+        "airInflowScore": 93.0
+      }
+    ],
+    "三亚": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 220,
+        "estimatedSeats": 36960,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 220,
+        "estimatedSeats": 36960,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 222,
+        "estimatedSeats": 37296,
+        "airInflowScore": 93.0
+      }
+    ],
+    "哈尔滨": [
+      {
+        "lastUpdatedAt": "2026-03-16T07:00:23Z",
+        "arrivalsCount": 194,
+        "estimatedSeats": 32592,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-16T07:11:54Z",
+        "arrivalsCount": 194,
+        "estimatedSeats": 32592,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-03-17T00:01:04Z",
+        "arrivalsCount": 191,
+        "estimatedSeats": 32088,
+        "airInflowScore": 93.0
+      }
+    ]
+  }
+}
