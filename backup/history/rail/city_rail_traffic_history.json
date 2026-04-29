@@ -923,6 +923,19 @@
         "railInflowScore": 67.2,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 100,
+        "availableTrainCount": 40,
+        "availableRatio": 0.4012,
+        "selloutPressureRatio": 0.5988,
+        "ticketTightnessScore": 63.1,
+        "peakWindowPressureScore": 63.7,
+        "priorityRouteDeltaScore": 82.4,
+        "railInflowScore": 67.2,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "上海": [
@@ -1838,6 +1851,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 107,
+        "availableTrainCount": 37,
+        "availableRatio": 0.3467,
+        "selloutPressureRatio": 0.6533,
+        "ticketTightnessScore": 66.0,
+        "peakWindowPressureScore": 66.4,
+        "priorityRouteDeltaScore": 82.4,
+        "railInflowScore": 69.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 107,
         "availableTrainCount": 37,
         "availableRatio": 0.3467,
@@ -2773,6 +2799,19 @@
         "railInflowScore": 59.2,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 75,
+        "availableTrainCount": 45,
+        "availableRatio": 0.6012,
+        "selloutPressureRatio": 0.3988,
+        "ticketTightnessScore": 52.7,
+        "peakWindowPressureScore": 54.1,
+        "priorityRouteDeltaScore": 82.4,
+        "railInflowScore": 59.2,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "深圳": [
@@ -3688,6 +3727,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 68,
+        "availableTrainCount": 45,
+        "availableRatio": 0.6558,
+        "selloutPressureRatio": 0.3442,
+        "ticketTightnessScore": 49.9,
+        "peakWindowPressureScore": 51.5,
+        "priorityRouteDeltaScore": 82.4,
+        "railInflowScore": 57.0,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 68,
         "availableTrainCount": 45,
         "availableRatio": 0.6558,
@@ -4623,6 +4675,19 @@
         "railInflowScore": 64.9,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 90,
+        "availableTrainCount": 44,
+        "availableRatio": 0.4859,
+        "selloutPressureRatio": 0.5141,
+        "ticketTightnessScore": 58.7,
+        "peakWindowPressureScore": 59.7,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 64.9,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "苏州": [
@@ -5538,6 +5603,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 83,
+        "availableTrainCount": 45,
+        "availableRatio": 0.5404,
+        "selloutPressureRatio": 0.4596,
+        "ticketTightnessScore": 55.9,
+        "peakWindowPressureScore": 57.1,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 62.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 83,
         "availableTrainCount": 45,
         "availableRatio": 0.5404,
@@ -6473,6 +6551,19 @@
         "railInflowScore": 64.5,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 89,
+        "availableTrainCount": 44,
+        "availableRatio": 0.4956,
+        "selloutPressureRatio": 0.5044,
+        "ticketTightnessScore": 58.2,
+        "peakWindowPressureScore": 59.2,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 64.5,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "重庆": [
@@ -7388,6 +7479,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 79,
+        "availableTrainCount": 45,
+        "availableRatio": 0.5683,
+        "selloutPressureRatio": 0.4317,
+        "ticketTightnessScore": 54.4,
+        "peakWindowPressureScore": 55.7,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 61.6,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 79,
         "availableTrainCount": 45,
         "availableRatio": 0.5683,
@@ -8323,6 +8427,19 @@
         "railInflowScore": 63.5,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 85,
+        "availableTrainCount": 44,
+        "availableRatio": 0.5223,
+        "selloutPressureRatio": 0.4777,
+        "ticketTightnessScore": 56.8,
+        "peakWindowPressureScore": 57.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 63.5,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "厦门": [
@@ -9238,6 +9355,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 43,
+        "availableTrainCount": 36,
+        "availableRatio": 0.8387,
+        "selloutPressureRatio": 0.1613,
+        "ticketTightnessScore": 40.4,
+        "peakWindowPressureScore": 42.7,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 50.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 43,
         "availableTrainCount": 36,
         "availableRatio": 0.8387,
@@ -10173,6 +10303,19 @@
         "railInflowScore": 46.7,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 3,
+        "availableTrainCount": 3,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "哈尔滨": [
@@ -11088,6 +11231,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 31,
+        "availableTrainCount": 29,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 73.3,
+        "railInflowScore": 43.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 31,
         "availableTrainCount": 29,
         "availableRatio": 0.94,
@@ -12023,6 +12179,19 @@
         "railInflowScore": 47.4,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 30,
+        "availableTrainCount": 28,
+        "availableRatio": 0.9223,
+        "selloutPressureRatio": 0.0777,
+        "ticketTightnessScore": 36.0,
+        "peakWindowPressureScore": 38.7,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 47.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "南京": [
@@ -12938,6 +13107,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 30,
+        "availableTrainCount": 28,
+        "availableRatio": 0.9223,
+        "selloutPressureRatio": 0.0777,
+        "ticketTightnessScore": 36.0,
+        "peakWindowPressureScore": 38.7,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 47.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 30,
         "availableTrainCount": 28,
         "availableRatio": 0.9223,
@@ -13873,6 +14055,19 @@
         "railInflowScore": 45.5,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 28,
+        "availableTrainCount": 26,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 82.4,
+        "railInflowScore": 45.5,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "长沙": [
@@ -14788,6 +14983,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 30,
+        "availableTrainCount": 27,
+        "availableRatio": 0.9137,
+        "selloutPressureRatio": 0.0863,
+        "ticketTightnessScore": 36.5,
+        "peakWindowPressureScore": 39.1,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 47.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 30,
         "availableTrainCount": 27,
         "availableRatio": 0.9137,
@@ -15723,6 +15931,19 @@
         "railInflowScore": 46.7,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "昆明": [
@@ -16638,6 +16859,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 29,
         "availableTrainCount": 27,
         "availableRatio": 0.94,
@@ -17573,6 +17807,19 @@
         "railInflowScore": 46.7,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "丽江": [
@@ -18488,6 +18735,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 29,
         "availableTrainCount": 27,
         "availableRatio": 0.94,
@@ -19423,6 +19683,19 @@
         "railInflowScore": 46.7,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "桂林": [
@@ -20338,6 +20611,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 29,
         "availableTrainCount": 27,
         "availableRatio": 0.94,
@@ -21273,6 +21559,19 @@
         "railInflowScore": 46.7,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 29,
+        "availableTrainCount": 27,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 37.9,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 46.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "天津": [
@@ -21811,6 +22110,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 61,
+        "availableTrainCount": 43,
+        "availableRatio": 0.7103,
+        "selloutPressureRatio": 0.2897,
+        "ticketTightnessScore": 47.1,
+        "peakWindowPressureScore": 43.3,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 51.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 61,
         "availableTrainCount": 43,
         "availableRatio": 0.7103,
@@ -22369,6 +22681,19 @@
         "railInflowScore": 47.0,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 47,
+        "availableTrainCount": 39,
+        "availableRatio": 0.8194,
+        "selloutPressureRatio": 0.1806,
+        "ticketTightnessScore": 41.4,
+        "peakWindowPressureScore": 38.1,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 47.0,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "太原": [
@@ -22907,6 +23232,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 49,
+        "availableTrainCount": 39,
+        "availableRatio": 0.8012,
+        "selloutPressureRatio": 0.1988,
+        "ticketTightnessScore": 42.3,
+        "peakWindowPressureScore": 38.9,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 47.7,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 49,
         "availableTrainCount": 39,
         "availableRatio": 0.8012,
@@ -23465,6 +23803,19 @@
         "railInflowScore": 42.1,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 26,
+        "availableTrainCount": 24,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 42.1,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "沈阳": [
@@ -24003,6 +24354,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 56,
+        "availableTrainCount": 42,
+        "availableRatio": 0.7467,
+        "selloutPressureRatio": 0.2533,
+        "ticketTightnessScore": 45.2,
+        "peakWindowPressureScore": 41.6,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 49.9,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 56,
         "availableTrainCount": 42,
         "availableRatio": 0.7467,
@@ -24561,6 +24925,19 @@
         "railInflowScore": 46.3,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 44,
+        "availableTrainCount": 37,
+        "availableRatio": 0.8376,
+        "selloutPressureRatio": 0.1624,
+        "ticketTightnessScore": 40.4,
+        "peakWindowPressureScore": 37.2,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 46.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "济南": [
@@ -25099,6 +25476,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 68,
+        "availableTrainCount": 45,
+        "availableRatio": 0.6558,
+        "selloutPressureRatio": 0.3442,
+        "ticketTightnessScore": 49.9,
+        "peakWindowPressureScore": 45.9,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 53.6,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 68,
         "availableTrainCount": 45,
         "availableRatio": 0.6558,
@@ -25657,6 +26047,19 @@
         "railInflowScore": 59.4,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 86,
+        "availableTrainCount": 44,
+        "availableRatio": 0.5103,
+        "selloutPressureRatio": 0.4897,
+        "ticketTightnessScore": 57.5,
+        "peakWindowPressureScore": 52.9,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 59.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "南昌": [
@@ -26195,6 +26598,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 40,
+        "availableTrainCount": 35,
+        "availableRatio": 0.8739,
+        "selloutPressureRatio": 0.1261,
+        "ticketTightnessScore": 38.6,
+        "peakWindowPressureScore": 35.5,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 44.8,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 40,
         "availableTrainCount": 35,
         "availableRatio": 0.8739,
@@ -26753,6 +27169,19 @@
         "railInflowScore": 49.6,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 50,
+        "availableTrainCount": 39,
+        "availableRatio": 0.7842,
+        "selloutPressureRatio": 0.2158,
+        "ticketTightnessScore": 43.2,
+        "peakWindowPressureScore": 39.8,
+        "priorityRouteDeltaScore": 81.2,
+        "railInflowScore": 49.6,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "合肥": [
@@ -27291,6 +27720,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 51,
+        "availableTrainCount": 40,
+        "availableRatio": 0.783,
+        "selloutPressureRatio": 0.217,
+        "ticketTightnessScore": 43.3,
+        "peakWindowPressureScore": 39.8,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 48.4,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 51,
         "availableTrainCount": 40,
         "availableRatio": 0.783,
@@ -27849,6 +28291,19 @@
         "railInflowScore": 48.1,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 46,
+        "availableTrainCount": 38,
+        "availableRatio": 0.8205,
+        "selloutPressureRatio": 0.1795,
+        "ticketTightnessScore": 41.3,
+        "peakWindowPressureScore": 38.0,
+        "priorityRouteDeltaScore": 81.2,
+        "railInflowScore": 48.1,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "无锡": [
@@ -28387,6 +28842,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 42,
+        "availableTrainCount": 36,
+        "availableRatio": 0.8558,
+        "selloutPressureRatio": 0.1442,
+        "ticketTightnessScore": 39.5,
+        "peakWindowPressureScore": 36.3,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 45.5,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 42,
         "availableTrainCount": 36,
         "availableRatio": 0.8558,
@@ -28945,6 +29413,19 @@
         "railInflowScore": 53.8,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 58,
+        "availableTrainCount": 41,
+        "availableRatio": 0.7137,
+        "selloutPressureRatio": 0.2863,
+        "ticketTightnessScore": 46.9,
+        "peakWindowPressureScore": 43.1,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 53.8,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "南宁": [
@@ -29483,6 +29964,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 33,
+        "availableTrainCount": 31,
+        "availableRatio": 0.9285,
+        "selloutPressureRatio": 0.0715,
+        "ticketTightnessScore": 35.7,
+        "peakWindowPressureScore": 32.8,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 42.6,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 33,
         "availableTrainCount": 31,
         "availableRatio": 0.9285,
@@ -30041,6 +30535,19 @@
         "railInflowScore": 43.3,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 22,
+        "availableTrainCount": 21,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 81.2,
+        "railInflowScore": 43.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "兰州": [
@@ -30579,6 +31086,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 28,
+        "availableTrainCount": 26,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 42.1,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 28,
         "availableTrainCount": 26,
         "availableRatio": 0.94,
@@ -31137,6 +31657,19 @@
         "railInflowScore": 40.3,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 16,
+        "availableTrainCount": 15,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 66.1,
+        "railInflowScore": 40.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "银川": [
@@ -31675,6 +32208,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 19,
+        "availableTrainCount": 18,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 42.1,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 19,
         "availableTrainCount": 18,
         "availableRatio": 0.94,
@@ -32233,6 +32779,19 @@
         "railInflowScore": 40.3,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 3,
+        "availableTrainCount": 3,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 66.1,
+        "railInflowScore": 40.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "拉萨": [
@@ -32771,6 +33330,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 3,
+        "availableTrainCount": 3,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 66.1,
+        "railInflowScore": 40.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 3,
         "availableTrainCount": 3,
         "availableRatio": 0.94,
@@ -33329,6 +33901,19 @@
         "railInflowScore": 43.3,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 24,
+        "availableTrainCount": 23,
+        "availableRatio": 0.94,
+        "selloutPressureRatio": 0.06,
+        "ticketTightnessScore": 35.1,
+        "peakWindowPressureScore": 32.3,
+        "priorityRouteDeltaScore": 81.2,
+        "railInflowScore": 43.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "洛阳": [
@@ -33867,6 +34452,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 43,
+        "availableTrainCount": 36,
+        "availableRatio": 0.8314,
+        "selloutPressureRatio": 0.1686,
+        "ticketTightnessScore": 40.8,
+        "peakWindowPressureScore": 37.5,
+        "priorityRouteDeltaScore": 88.0,
+        "railInflowScore": 49.1,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 43,
         "availableTrainCount": 36,
         "availableRatio": 0.8314,
@@ -34425,6 +35023,19 @@
         "railInflowScore": 43.8,
         "source": "fallback_skeleton",
         "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
+        "arrivalsCount": 31,
+        "availableTrainCount": 29,
+        "availableRatio": 0.9296,
+        "selloutPressureRatio": 0.0704,
+        "ticketTightnessScore": 35.7,
+        "peakWindowPressureScore": 32.8,
+        "priorityRouteDeltaScore": 81.2,
+        "railInflowScore": 43.8,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
       }
     ],
     "嘉兴": [
@@ -34963,6 +35574,19 @@
       },
       {
         "lastUpdatedAt": "2026-04-28T22:38:01Z",
+        "arrivalsCount": 35,
+        "availableTrainCount": 32,
+        "availableRatio": 0.9103,
+        "selloutPressureRatio": 0.0897,
+        "ticketTightnessScore": 36.7,
+        "peakWindowPressureScore": 33.7,
+        "priorityRouteDeltaScore": 75.2,
+        "railInflowScore": 43.3,
+        "source": "fallback_skeleton",
+        "provider": "12306（配置骨架）"
+      },
+      {
+        "lastUpdatedAt": "2026-04-29T10:38:02Z",
         "arrivalsCount": 35,
         "availableTrainCount": 32,
         "availableRatio": 0.9103,
