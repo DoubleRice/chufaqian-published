@@ -66,6 +66,12 @@
         "arrivalsCount": 2006,
         "estimatedSeats": 337008,
         "airInflowScore": 92.7
+      },
+      {
+        "lastUpdatedAt": "2026-05-15T22:38:01Z",
+        "arrivalsCount": 2046,
+        "estimatedSeats": 343728,
+        "airInflowScore": 92.7
       }
     ],
     "上海": [
