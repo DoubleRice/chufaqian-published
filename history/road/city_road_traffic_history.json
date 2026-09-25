@@ -2,14 +2,6 @@
   "cities": {
     "北京": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -1263,19 +1255,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "上海": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -2529,19 +2521,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "广州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -3795,19 +3787,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "深圳": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -5061,19 +5053,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "杭州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -6327,19 +6319,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "苏州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -7593,19 +7585,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "成都": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -8859,19 +8851,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "重庆": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -10125,19 +10117,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "西安": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -11391,19 +11383,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "厦门": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -12657,19 +12649,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "三亚": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -13923,19 +13915,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "哈尔滨": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -15189,19 +15181,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "敦煌": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -16455,19 +16447,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "南京": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -17721,19 +17713,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "武汉": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -18987,19 +18979,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "长沙": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -20253,19 +20245,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "青岛": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -21519,19 +21511,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "昆明": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -22785,19 +22777,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "大理": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -24051,19 +24043,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "丽江": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -25317,19 +25309,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "西双版纳": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -26583,19 +26575,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "桂林": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -27849,19 +27841,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "张家界": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -29115,19 +29107,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "天津": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -30381,19 +30373,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "石家庄": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -31647,19 +31639,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "太原": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -32913,19 +32905,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "呼和浩特": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -34179,19 +34171,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "沈阳": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -35445,19 +35437,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "长春": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -36711,19 +36703,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "济南": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -37977,19 +37969,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "郑州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -39243,19 +39235,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "南昌": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -40509,19 +40501,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "福州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -41775,19 +41767,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "合肥": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -43041,19 +43033,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "宁波": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -44307,19 +44299,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "无锡": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -45573,19 +45565,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "贵阳": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -46839,19 +46831,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "南宁": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -48105,19 +48097,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "海口": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -49371,19 +49363,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "兰州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -50637,19 +50629,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "西宁": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -51903,19 +51895,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "银川": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -53169,19 +53161,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "乌鲁木齐": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -54435,19 +54427,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "拉萨": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -55701,19 +55693,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "珠海": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -56967,19 +56959,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "洛阳": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -58233,19 +58225,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "泉州": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -59499,19 +59491,19 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ],
     "嘉兴": [
       {
-        "lastUpdatedAt": "2026-06-27T22:38:01Z",
-        "averageSpeedKPH": 42.8,
-        "roadInflowScore": 46.7,
-        "congestionRatio": 0.28,
-        "etaInflationRatio": 0.3024,
-        "provider": "城市路况骨架"
-      },
-      {
         "lastUpdatedAt": "2026-06-28T10:38:01Z",
         "averageSpeedKPH": 42.8,
         "roadInflowScore": 46.7,
@@ -60765,6 +60757,14 @@
         "roadInflowScore": 49.5,
         "congestionRatio": 0.3169,
         "etaInflationRatio": 0.3422,
+        "provider": "城市路况骨架"
+      },
+      {
+        "lastUpdatedAt": "2026-09-25T22:38:01Z",
+        "averageSpeedKPH": 42.8,
+        "roadInflowScore": 46.7,
+        "congestionRatio": 0.28,
+        "etaInflationRatio": 0.3024,
         "provider": "城市路况骨架"
       }
     ]
