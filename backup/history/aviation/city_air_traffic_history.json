@@ -42,6 +42,12 @@
         "arrivalsCount": 1932,
         "estimatedSeats": 324576,
         "airInflowScore": 92.7
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 2032,
+        "estimatedSeats": 341376,
+        "airInflowScore": 92.9
       }
     ],
     "上海": [
@@ -86,6 +92,12 @@
         "arrivalsCount": 2969,
         "estimatedSeats": 498792,
         "airInflowScore": 92.7
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 3133,
+        "estimatedSeats": 526344,
+        "airInflowScore": 92.9
       }
     ],
     "广州": [
@@ -130,6 +142,12 @@
         "arrivalsCount": 1010,
         "estimatedSeats": 169680,
         "airInflowScore": 92.7
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 1013,
+        "estimatedSeats": 170184,
+        "airInflowScore": 92.8
       }
     ],
     "深圳": [
@@ -174,6 +192,12 @@
         "arrivalsCount": 1866,
         "estimatedSeats": 313488,
         "airInflowScore": 92.5
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 1511,
+        "estimatedSeats": 253848,
+        "airInflowScore": 92.8
       }
     ],
     "杭州": [
@@ -212,6 +236,12 @@
         "arrivalsCount": 401,
         "estimatedSeats": 67368,
         "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 449,
+        "estimatedSeats": 75432,
+        "airInflowScore": 93.0
       }
     ],
     "苏州": [
@@ -255,6 +285,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 106,
         "estimatedSeats": 17808,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 112,
+        "estimatedSeats": 18816,
         "airInflowScore": 93.0
       }
     ],
@@ -300,6 +336,12 @@
         "arrivalsCount": 771,
         "estimatedSeats": 129528,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 866,
+        "estimatedSeats": 145488,
+        "airInflowScore": 93.0
       }
     ],
     "重庆": [
@@ -343,6 +385,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 373,
         "estimatedSeats": 62664,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 432,
+        "estimatedSeats": 72576,
         "airInflowScore": 93.0
       }
     ],
@@ -388,6 +436,12 @@
         "arrivalsCount": 409,
         "estimatedSeats": 68712,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 444,
+        "estimatedSeats": 74592,
+        "airInflowScore": 93.0
       }
     ],
     "厦门": [
@@ -431,6 +485,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 267,
         "estimatedSeats": 44856,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 282,
+        "estimatedSeats": 47376,
         "airInflowScore": 92.9
       }
     ],
@@ -476,6 +536,12 @@
         "arrivalsCount": 185,
         "estimatedSeats": 31080,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 219,
+        "estimatedSeats": 36792,
+        "airInflowScore": 93.0
       }
     ],
     "哈尔滨": [
@@ -519,6 +585,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 203,
         "estimatedSeats": 34104,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 220,
+        "estimatedSeats": 36960,
         "airInflowScore": 93.0
       }
     ],
@@ -564,6 +636,12 @@
         "arrivalsCount": 11,
         "estimatedSeats": 1848,
         "airInflowScore": 23.5
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 10,
+        "estimatedSeats": 1680,
+        "airInflowScore": 21.3
       }
     ],
     "南京": [
@@ -607,6 +685,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 297,
         "estimatedSeats": 49896,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 301,
+        "estimatedSeats": 50568,
         "airInflowScore": 93.0
       }
     ],
@@ -652,6 +736,12 @@
         "arrivalsCount": 274,
         "estimatedSeats": 46032,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 299,
+        "estimatedSeats": 50232,
+        "airInflowScore": 93.0
       }
     ],
     "长沙": [
@@ -689,6 +779,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 267,
         "estimatedSeats": 44856,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 272,
+        "estimatedSeats": 45696,
         "airInflowScore": 93.0
       }
     ],
@@ -734,27 +830,15 @@
         "arrivalsCount": 231,
         "estimatedSeats": 38808,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 255,
+        "estimatedSeats": 42840,
+        "airInflowScore": 93.0
       }
     ],
     "大理": [
-      {
-        "lastUpdatedAt": "2026-08-14T10:38:01Z",
-        "arrivalsCount": 71,
-        "estimatedSeats": 11928,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 76,
-        "estimatedSeats": 12768,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 76,
-        "estimatedSeats": 12768,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 55,
@@ -790,27 +874,15 @@
         "arrivalsCount": 45,
         "estimatedSeats": 7560,
         "airInflowScore": 92.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 45,
+        "estimatedSeats": 7560,
+        "airInflowScore": 92.0
       }
     ],
     "丽江": [
-      {
-        "lastUpdatedAt": "2026-08-14T10:38:01Z",
-        "arrivalsCount": 129,
-        "estimatedSeats": 21672,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 137,
-        "estimatedSeats": 23016,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 137,
-        "estimatedSeats": 23016,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 88,
@@ -846,27 +918,15 @@
         "arrivalsCount": 74,
         "estimatedSeats": 12432,
         "airInflowScore": 93.0
-      }
-    ],
-    "桂林": [
+      },
       {
-        "lastUpdatedAt": "2026-08-14T10:38:01Z",
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
         "arrivalsCount": 69,
         "estimatedSeats": 11592,
         "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 79,
-        "estimatedSeats": 13272,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 79,
-        "estimatedSeats": 13272,
-        "airInflowScore": 93.0
-      },
+      }
+    ],
+    "桂林": [
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 58,
@@ -902,21 +962,15 @@
         "arrivalsCount": 59,
         "estimatedSeats": 9912,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 47,
+        "estimatedSeats": 7896,
+        "airInflowScore": 93.0
       }
     ],
     "张家界": [
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 30,
-        "estimatedSeats": 5040,
-        "airInflowScore": 64.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 30,
-        "estimatedSeats": 5040,
-        "airInflowScore": 64.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 24,
@@ -952,21 +1006,15 @@
         "arrivalsCount": 28,
         "estimatedSeats": 4704,
         "airInflowScore": 59.7
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 17,
+        "estimatedSeats": 2856,
+        "airInflowScore": 36.3
       }
     ],
     "天津": [
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 224,
-        "estimatedSeats": 37632,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 224,
-        "estimatedSeats": 37632,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 189,
@@ -1002,21 +1050,15 @@
         "arrivalsCount": 179,
         "estimatedSeats": 30072,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 184,
+        "estimatedSeats": 30912,
+        "airInflowScore": 92.8
       }
     ],
     "石家庄": [
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 145,
-        "estimatedSeats": 24360,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 145,
-        "estimatedSeats": 24360,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 135,
@@ -1052,21 +1094,15 @@
         "arrivalsCount": 111,
         "estimatedSeats": 18648,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 118,
+        "estimatedSeats": 19824,
+        "airInflowScore": 93.0
       }
     ],
     "太原": [
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 155,
-        "estimatedSeats": 26040,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 155,
-        "estimatedSeats": 26040,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 135,
@@ -1102,21 +1138,15 @@
         "arrivalsCount": 118,
         "estimatedSeats": 19824,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 146,
+        "estimatedSeats": 24528,
+        "airInflowScore": 92.9
       }
     ],
     "呼和浩特": [
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 196,
-        "estimatedSeats": 32928,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 196,
-        "estimatedSeats": 32928,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 156,
@@ -1151,6 +1181,12 @@
         "lastUpdatedAt": "2026-10-15T10:38:01Z",
         "arrivalsCount": 135,
         "estimatedSeats": 22680,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 129,
+        "estimatedSeats": 21672,
         "airInflowScore": 93.0
       }
     ],
@@ -1196,6 +1232,12 @@
         "arrivalsCount": 204,
         "estimatedSeats": 34272,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 218,
+        "estimatedSeats": 36624,
+        "airInflowScore": 93.0
       }
     ],
     "长春": [
@@ -1239,6 +1281,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 159,
         "estimatedSeats": 26712,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 162,
+        "estimatedSeats": 27216,
         "airInflowScore": 93.0
       }
     ],
@@ -1284,6 +1332,12 @@
         "arrivalsCount": 272,
         "estimatedSeats": 45696,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 270,
+        "estimatedSeats": 45360,
+        "airInflowScore": 92.8
       }
     ],
     "南昌": [
@@ -1327,6 +1381,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 110,
         "estimatedSeats": 18480,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 122,
+        "estimatedSeats": 20496,
         "airInflowScore": 93.0
       }
     ],
@@ -1372,6 +1432,12 @@
         "arrivalsCount": 155,
         "estimatedSeats": 26040,
         "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 155,
+        "estimatedSeats": 26040,
+        "airInflowScore": 93.0
       }
     ],
     "合肥": [
@@ -1415,6 +1481,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 129,
         "estimatedSeats": 21672,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 142,
+        "estimatedSeats": 23856,
         "airInflowScore": 93.0
       }
     ],
@@ -1460,6 +1532,12 @@
         "arrivalsCount": 154,
         "estimatedSeats": 25872,
         "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 162,
+        "estimatedSeats": 27216,
+        "airInflowScore": 93.0
       }
     ],
     "无锡": [
@@ -1503,6 +1581,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 106,
         "estimatedSeats": 17808,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 112,
+        "estimatedSeats": 18816,
         "airInflowScore": 93.0
       }
     ],
@@ -1548,6 +1632,12 @@
         "arrivalsCount": 190,
         "estimatedSeats": 31920,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 205,
+        "estimatedSeats": 34440,
+        "airInflowScore": 93.0
       }
     ],
     "南宁": [
@@ -1591,6 +1681,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 141,
         "estimatedSeats": 23688,
+        "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 140,
+        "estimatedSeats": 23520,
         "airInflowScore": 92.9
       }
     ],
@@ -1636,6 +1732,12 @@
         "arrivalsCount": 238,
         "estimatedSeats": 39984,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 289,
+        "estimatedSeats": 48552,
+        "airInflowScore": 93.0
       }
     ],
     "兰州": [
@@ -1680,6 +1782,12 @@
         "arrivalsCount": 145,
         "estimatedSeats": 24360,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 141,
+        "estimatedSeats": 23688,
+        "airInflowScore": 93.0
       }
     ],
     "西宁": [
@@ -1721,6 +1829,12 @@
       },
       {
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
+        "arrivalsCount": 54,
+        "estimatedSeats": 9072,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
         "arrivalsCount": 54,
         "estimatedSeats": 9072,
         "airInflowScore": 93.0
@@ -1768,6 +1882,12 @@
         "arrivalsCount": 79,
         "estimatedSeats": 13272,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 88,
+        "estimatedSeats": 14784,
+        "airInflowScore": 93.0
       }
     ],
     "乌鲁木齐": [
@@ -1811,6 +1931,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 222,
         "estimatedSeats": 37296,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 270,
+        "estimatedSeats": 45360,
         "airInflowScore": 93.0
       }
     ],
@@ -1856,6 +1982,12 @@
         "arrivalsCount": 69,
         "estimatedSeats": 11592,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 63,
+        "estimatedSeats": 10584,
+        "airInflowScore": 93.0
       }
     ],
     "珠海": [
@@ -1900,6 +2032,12 @@
         "arrivalsCount": 139,
         "estimatedSeats": 23352,
         "airInflowScore": 92.8
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 136,
+        "estimatedSeats": 22848,
+        "airInflowScore": 93.0
       }
     ],
     "洛阳": [
@@ -1938,6 +2076,12 @@
         "arrivalsCount": 17,
         "estimatedSeats": 2856,
         "airInflowScore": 36.3
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 13,
+        "estimatedSeats": 2184,
+        "airInflowScore": 27.7
       }
     ],
     "泉州": [
@@ -1970,6 +2114,12 @@
         "arrivalsCount": 82,
         "estimatedSeats": 13776,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 87,
+        "estimatedSeats": 14616,
+        "airInflowScore": 93.0
       }
     ],
     "嘉兴": [
@@ -1996,6 +2146,12 @@
         "arrivalsCount": 401,
         "estimatedSeats": 67368,
         "airInflowScore": 92.9
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 449,
+        "estimatedSeats": 75432,
+        "airInflowScore": 93.0
       }
     ],
     "昆明": [
@@ -2040,27 +2196,15 @@
         "arrivalsCount": 429,
         "estimatedSeats": 72072,
         "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 482,
+        "estimatedSeats": 80976,
+        "airInflowScore": 92.9
       }
     ],
     "西双版纳": [
-      {
-        "lastUpdatedAt": "2026-08-14T10:38:01Z",
-        "arrivalsCount": 84,
-        "estimatedSeats": 14112,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-14T22:38:01Z",
-        "arrivalsCount": 82,
-        "estimatedSeats": 13776,
-        "airInflowScore": 93.0
-      },
-      {
-        "lastUpdatedAt": "2026-08-15T10:38:00Z",
-        "arrivalsCount": 82,
-        "estimatedSeats": 13776,
-        "airInflowScore": 93.0
-      },
       {
         "lastUpdatedAt": "2026-09-14T10:38:00Z",
         "arrivalsCount": 53,
@@ -2095,6 +2239,12 @@
         "lastUpdatedAt": "2026-10-15T10:38:01Z",
         "arrivalsCount": 52,
         "estimatedSeats": 8736,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 105,
+        "estimatedSeats": 17640,
         "airInflowScore": 93.0
       }
     ],
@@ -2139,6 +2289,12 @@
         "lastUpdatedAt": "2026-11-14T10:38:01Z",
         "arrivalsCount": 186,
         "estimatedSeats": 31248,
+        "airInflowScore": 93.0
+      },
+      {
+        "lastUpdatedAt": "2026-11-14T22:38:01Z",
+        "arrivalsCount": 203,
+        "estimatedSeats": 34104,
         "airInflowScore": 93.0
       }
     ]
